@@ -61,7 +61,7 @@
                 "name": "The Frigid Sea",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bluebook,magicwand","bluebook&magicwand"
+                    "bluebook,magicwand"
                 ],
                 "sections": [
                     {
@@ -110,7 +110,7 @@
                 "name": "Castle of Illusions",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "lantern,magicalflame","lantern&magicalflame"
+                    "lantern,magicalflame"
                 ],
                 "sections": [
                     {
@@ -159,7 +159,7 @@
                 "name": "The Colossal Hole",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "tuskset","tuskblue,tuskred,greenflower"
+                    "tuskblue,tuskred,greenflower"
                 ],
                 "sections": [
                     {

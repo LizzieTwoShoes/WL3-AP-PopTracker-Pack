@@ -12,7 +12,7 @@
                 "name": "The Grasslands",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "gear1,gear2","gears"
+                    "gear1,gear2"
                 ],
                 "sections": [
                     {
@@ -110,7 +110,7 @@
                 "name": "Tower of Revival",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "skullringred,skullringblue","skullring"
+                    "skullringred,skullringblue"
                 ],
                 "sections": [
                     {
@@ -159,7 +159,7 @@
                 "name": "The Steep Canyon",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "trident,yellowbook","trident&yellowbook"
+                    "trident,yellowbook"
                 ],
                 "sections": [
                     {

@@ -12,7 +12,7 @@
                 "name": "Desert Ruins",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bluetablet,greentablet","tablets"
+                    "bluetablet,greentablet"
                 ],
                 "sections": [
                     {
@@ -61,7 +61,7 @@
                 "name": "The Volcanos Base",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "tophalfofscroll,bottomhalfofscroll","scroll"
+                    "tophalfofscroll,bottomhalfofscroll"
                 ],
                 "sections": [
                     {
@@ -257,7 +257,7 @@
                 "name": "The West Crater",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "tuskred,tuskblue,greenflower","tuskset"
+                    "tuskred,tuskblue,greenflower"
                 ],
                 "sections": [
                     {
