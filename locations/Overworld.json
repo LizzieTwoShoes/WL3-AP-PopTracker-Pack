@@ -1,0 +1,489 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "East",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Stagnant Swamp - Grey Chest",
+                        "ref": "East/The Stagnant Swamp/Grey Chest"
+                    },
+                    {
+                        "name": "The Stagnant Swamp - Red Chest",
+                        "ref": "East/The Stagnant Swamp/Red Chest"
+                    },
+                    {
+                        "name": "The Stagnant Swamp - Green Chest",
+                        "ref": "East/The Stagnant Swamp/Green Chest"
+                    },
+                    {
+                        "name": "The Stagnant Swamp - Blue Chest",
+                        "ref": "East/The Stagnant Swamp/Blue Chest"
+                    },
+                    {
+                        "name": "The Frigid Sea - Grey Chest",
+                        "ref": "East/The Frigid Sea/Grey Chest"
+                    },
+                    {
+                        "name": "The Frigid Sea - Red Chest",
+                        "ref": "East/The Frigid Sea/Red Chest"
+                    },
+                    {
+                        "name": "The Frigid Sea - Green Chest",
+                        "ref": "East/The Frigid Sea/Green Chest"
+                    },
+                    {
+                        "name": "The Frigid Sea - Blue Chest",
+                        "ref": "East/The Frigid Sea/Blue Chest"
+                    },
+                    {
+                        "name": "Castle of Illusions - Grey Chest",
+                        "ref": "East/Castle of Illusions/Grey Chest"
+                    },
+                    {
+                        "name": "Castle of Illusions - Red Chest",
+                        "ref": "East/Castle of Illusions/Red Chest"
+                    },
+                    {
+                        "name": "Castle of Illusions - Green Chest",
+                        "ref": "East/Castle of Illusions/Green Chest"
+                    },
+                    {
+                        "name": "Castle of Illusions - Blue Chest",
+                        "ref": "East/Castle of Illusions/Blue Chest"
+                    },
+                    {
+                        "name": "The Colossal Hole - Grey Chest",
+                        "ref": "East/The Colossal Hole/Grey Chest"
+                    },
+                    {
+                        "name": "The Colossal Hole - Red Chest",
+                        "ref": "East/The Colossal Hole/Red Chest"
+                    },
+                    {
+                        "name": "The Colossal Hole - Green Chest",
+                        "ref": "East/The Colossal Hole/Green Chest"
+                    },
+                    {
+                        "name": "The Colossal Hole - Blue Chest",
+                        "ref": "East/The Colossal Hole/Blue Chest"
+                    },
+                    {
+                        "name": "The Warped Void - Grey Chest",
+                        "ref": "East/The Warped Void/Grey Chest"
+                    },
+                    {
+                        "name": "The Warped Void - Red Chest",
+                        "ref": "East/The Warped Void/Red Chest"
+                    },
+                    {
+                        "name": "The Warped Void - Green Chest",
+                        "ref": "East/The Warped Void/Green Chest"
+                    },
+                    {
+                        "name": "The Warped Void - Blue Chest",
+                        "ref": "East/The Warped Void/Blue Chest"
+                    },
+                    {
+                        "name": "The East Crater - Grey Chest",
+                        "ref": "East/The East Crater/Grey Chest"
+                    },
+                    {
+                        "name": "The East Crater - Red Chest",
+                        "ref": "East/The East Crater/Red Chest"
+                    },
+                    {
+                        "name": "The East Crater - Green Chest",
+                        "ref": "East/The East Crater/Green Chest"
+                    },
+                    {
+                        "name": "The East Crater - Blue Chest",
+                        "ref": "East/The East Crater/Blue Chest"
+                    },
+                    {
+                        "name": "Forest of Fear - Grey Chest",
+                        "ref": "East/Forest of Fear/Grey Chest"
+                    },
+                    {
+                        "name": "Forest of Fear - Red Chest",
+                        "ref": "East/Forest of Fear/Red Chest"
+                    },
+                    {
+                        "name": "Forest of Fear - Green Chest",
+                        "ref": "East/Forest of Fear/Green Chest"
+                    },
+                    {
+                        "name": "Forest of Fear - Blue Chest",
+                        "ref": "East/Forest of Fear/Blue Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 870,
+                        "y": 1913,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "North",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Out of the Woods - Grey Chest",
+                        "ref": "North/Out of the Woods/Grey Chest"
+                    },
+                    {
+                        "name": "Out of the Woods - Red Chest",
+                        "ref": "North/Out of the Woods/Red Chest"
+                    },
+                    {
+                        "name": "Out of the Woods - Green Chest",
+                        "ref": "North/Out of the Woods/Green Chest"
+                    },
+                    {
+                        "name": "Out of the Woods - Blue Chest",
+                        "ref": "North/Out of the Woods/Blue Chest"
+                    },
+                    {
+                        "name": "The Peaceful Village - Grey Chest",
+                        "ref": "North/The Peaceful Village/Grey Chest"
+                    },
+                    {
+                        "name": "The Peaceful Village - Red Chest",
+                        "ref": "North/The Peaceful Village/Red Chest"
+                    },
+                    {
+                        "name": "The Peaceful Village - Green Chest",
+                        "ref": "North/The Peaceful Village/Green Chest"
+                    },
+                    {
+                        "name": "The Peaceful Village - Blue Chest",
+                        "ref": "North/The Peaceful Village/Blue Chest"
+                    },
+                    {
+                        "name": "The Vast Plain - Grey Chest",
+                        "ref": "North/The Vast Plain/Grey Chest"
+                    },
+                    {
+                        "name": "The Vast Plain - Red Chest",
+                        "ref": "North/The Vast Plain/Red Chest"
+                    },
+                    {
+                        "name": "The Vast Plain - Green Chest",
+                        "ref": "North/The Vast Plain/Green Chest"
+                    },
+                    {
+                        "name": "The Vast Plain - Blue Chest",
+                        "ref": "North/The Vast Plain/Blue Chest"
+                    },
+                    {
+                        "name": "Bank of the Wild River - Grey Chest",
+                        "ref": "North/Bank of the Wild River/Grey Chest"
+                    },
+                    {
+                        "name": "Bank of the Wild River - Red Chest",
+                        "ref": "North/Bank of the Wild River/Red Chest"
+                    },
+                    {
+                        "name": "Bank of the Wild River - Green Chest",
+                        "ref": "North/Bank of the Wild River/Green Chest"
+                    },
+                    {
+                        "name": "Bank of the Wild River - Blue Chest",
+                        "ref": "North/Bank of the Wild River/Blue Chest"
+                    },
+                    {
+                        "name": "The Tidal Coast - Grey Chest",
+                        "ref": "North/The Tidal Coast/Grey Chest"
+                    },
+                    {
+                        "name": "The Tidal Coast - Red Chest",
+                        "ref": "North/The Tidal Coast/Red Chest"
+                    },
+                    {
+                        "name": "The Tidal Coast - Green Chest",
+                        "ref": "North/The Tidal Coast/Green Chest"
+                    },
+                    {
+                        "name": "The Tidal Coast - Blue Chest",
+                        "ref": "North/The Tidal Coast/Blue Chest"
+                    },
+                    {
+                        "name": "Sea Turtle Rocks - Grey Chest",
+                        "ref": "North/Sea Turtle Rocks/Grey Chest"
+                    },
+                    {
+                        "name": "Sea Turtle Rocks - Red Chest",
+                        "ref": "North/Sea Turtle Rocks/Red Chest"
+                    },
+                    {
+                        "name": "Sea Turtle Rocks - Green Chest",
+                        "ref": "North/Sea Turtle Rocks/Green Chest"
+                    },
+                    {
+                        "name": "Sea Turtle Rocks - Blue Chest",
+                        "ref": "North/Sea Turtle Rocks/Blue Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 830,
+                        "y": 2129,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "South",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Grasslands - Grey Chest",
+                        "ref": "South/The Grasslands/Grey Chest"
+                    },
+                    {
+                        "name": "The Grasslands - Red Chest",
+                        "ref": "South/The Grasslands/Red Chest"
+                    },
+                    {
+                        "name": "The Grasslands - Green Chest",
+                        "ref": "South/The Grasslands/Green Chest"
+                    },
+                    {
+                        "name": "The Grasslands - Blue Chest",
+                        "ref": "South/The Grasslands/Blue Chest"
+                    },
+                    {
+                        "name": "The Big Bridge - Grey Chest",
+                        "ref": "South/The Big Bridge/Grey Chest"
+                    },
+                    {
+                        "name": "The Big Bridge - Red Chest",
+                        "ref": "South/The Big Bridge/Red Chest"
+                    },
+                    {
+                        "name": "The Big Bridge - Green Chest",
+                        "ref": "South/The Big Bridge/Green Chest"
+                    },
+                    {
+                        "name": "The Big Bridge - Blue Chest",
+                        "ref": "South/The Big Bridge/Blue Chest"
+                    },
+                    {
+                        "name": "Tower of Revival - Grey Chest",
+                        "ref": "South/Tower of Revival/Grey Chest"
+                    },
+                    {
+                        "name": "Tower of Revival - Red Chest",
+                        "ref": "South/Tower of Revival/Red Chest"
+                    },
+                    {
+                        "name": "Tower of Revival - Green Chest",
+                        "ref": "South/Tower of Revival/Green Chest"
+                    },
+                    {
+                        "name": "Tower of Revival - Blue Chest",
+                        "ref": "South/Tower of Revival/Blue Chest"
+                    },
+                    {
+                        "name": "The Steep Canyon - Grey Chest",
+                        "ref": "South/The Steep Canyon/Grey Chest"
+                    },
+                    {
+                        "name": "The Steep Canyon - Red Chest",
+                        "ref": "South/The Steep Canyon/Red Chest"
+                    },
+                    {
+                        "name": "The Steep Canyon - Green Chest",
+                        "ref": "South/The Steep Canyon/Green Chest"
+                    },
+                    {
+                        "name": "The Steep Canyon - Blue Chest",
+                        "ref": "South/The Steep Canyon/Blue Chest"
+                    },
+                    {
+                        "name": "Cave of Flames - Grey Chest",
+                        "ref": "South/Cave of Flames/Grey Chest"
+                    },
+                    {
+                        "name": "Cave of Flames - Red Chest",
+                        "ref": "South/Cave of Flames/Red Chest"
+                    },
+                    {
+                        "name": "Cave of Flames - Green Chest",
+                        "ref": "South/Cave of Flames/Green Chest"
+                    },
+                    {
+                        "name": "Cave of Flames - Blue Chest",
+                        "ref": "South/Cave of Flames/Blue Chest"
+                    },
+                    {
+                        "name": "Above the Clouds - Grey Chest",
+                        "ref": "South/Above the Clouds/Grey Chest"
+                    },
+                    {
+                        "name": "Above the Clouds - Red Chest",
+                        "ref": "South/Above the Clouds/Red Chest"
+                    },
+                    {
+                        "name": "Above the Clouds - Green Chest",
+                        "ref": "South/Above the Clouds/Green Chest"
+                    },
+                    {
+                        "name": "Above the Clouds - Blue Chest",
+                        "ref": "South/Above the Clouds/Blue Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1500,
+                        "y": 1516,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "West",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Desert Ruins - Grey Chest",
+                        "ref": "West/Desert Ruins/Grey Chest"
+                    },
+                    {
+                        "name": "Desert Ruins - Red Chest",
+                        "ref": "West/Desert Ruins/Red Chest"
+                    },
+                    {
+                        "name": "Desert Ruins - Green Chest",
+                        "ref": "West/Desert Ruins/Green Chest"
+                    },
+                    {
+                        "name": "Desert Ruins - Blue Chest",
+                        "ref": "West/Desert Ruins/Blue Chest"
+                    },
+                    {
+                        "name": "The Volcanos Base - Grey Chest",
+                        "ref": "West/The Volcanos Base/Grey Chest"
+                    },
+                    {
+                        "name": "The Volcanos Base - Red Chest",
+                        "ref": "West/The Volcanos Base/Red Chest"
+                    },
+                    {
+                        "name": "The Volcanos Base - Green Chest",
+                        "ref": "West/The Volcanos Base/Green Chest"
+                    },
+                    {
+                        "name": "The Volcanos Base - Blue Chest",
+                        "ref": "West/The Volcanos Base/Blue Chest"
+                    },
+                    {
+                        "name": "The Pool of Rain - Grey Chest",
+                        "ref": "West/The Pool of Rain/Grey Chest"
+                    },
+                    {
+                        "name": "The Pool of Rain - Red Chest",
+                        "ref": "West/The Pool of Rain/Red Chest"
+                    },
+                    {
+                        "name": "The Pool of Rain - Green Chest",
+                        "ref": "West/The Pool of Rain/Green Chest"
+                    },
+                    {
+                        "name": "The Pool of Rain - Blue Chest",
+                        "ref": "West/The Pool of Rain/Blue Chest"
+                    },
+                    {
+                        "name": "A Town in Chaos - Grey Chest",
+                        "ref": "West/A Town in Chaos/Grey Chest"
+                    },
+                    {
+                        "name": "A Town in Chaos - Red Chest",
+                        "ref": "West/A Town in Chaos/Red Chest"
+                    },
+                    {
+                        "name": "A Town in Chaos - Green Chest",
+                        "ref": "West/A Town in Chaos/Green Chest"
+                    },
+                    {
+                        "name": "A Town in Chaos - Blue Chest",
+                        "ref": "West/A Town in Chaos/Blue Chest"
+                    },
+                    {
+                        "name": "Beneath the Waves - Grey Chest",
+                        "ref": "West/Beneath the Waves/Grey Chest"
+                    },
+                    {
+                        "name": "Beneath the Waves - Red Chest",
+                        "ref": "West/Beneath the Waves/Red Chest"
+                    },
+                    {
+                        "name": "Beneath the Waves - Green Chest",
+                        "ref": "West/Beneath the Waves/Green Chest"
+                    },
+                    {
+                        "name": "Beneath the Waves - Blue Chest",
+                        "ref": "West/Beneath the Waves/Blue Chest"
+                    },
+                    {
+                        "name": "The West Crater - Grey Chest",
+                        "ref": "West/The West Crater/Grey Chest"
+                    },
+                    {
+                        "name": "The West Crater - Red Chest",
+                        "ref": "West/The West Crater/Red Chest"
+                    },
+                    {
+                        "name": "The West Crater - Green Chest",
+                        "ref": "West/The West Crater/Green Chest"
+                    },
+                    {
+                        "name": "The West Crater - Blue Chest",
+                        "ref": "West/The West Crater/Blue Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2196,
+                        "y": 52,
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

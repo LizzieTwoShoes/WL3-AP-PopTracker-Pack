@@ -1,0 +1,26 @@
+[
+    {
+        "name": "North",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/north.png"
+    },
+    {
+        "name": "West",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/west.png"
+    },
+    {
+        "name": "South",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/south.png"
+    },
+    {
+        "name": "East",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/east.png"
+    }
+]

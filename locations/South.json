@@ -1,0 +1,307 @@
+[
+    {
+        "name": "South",
+        "chest_unopened_img": "/images/items/grey_closed.png",
+        "chest_opened_img": "/images/items/grey_open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "The Grasslands",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "gear1,gear2","gears"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["overalls,magicseeds"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["flippers,flute"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South",
+                        "x": 36,
+                        "y": 180,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Big Bridge",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "yellowmusicbox"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["flippers,overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["flippers,overalls,grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["flippers,overalls,spikedhelmet,scepter"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South",
+                        "x": 132,
+                        "y": 180,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "Tower of Revival",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "skullringred,skullringblue","skullring"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["leftglasseye,rightglasseye"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["highjumpboots,statue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["highjumpboots,grab_stage2,garlic,spikedhelmet,statue,goldenlefteye,goldenrighteye"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South",
+                        "x": 300,
+                        "y": 180,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Steep Canyon",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "trident,yellowbook","trident&yellowbook"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["footofstone"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["flippers_stage2,overalls_stage2,highjumpboots,footofstone"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["overalls,rustspray"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South",
+                        "x": 228,
+                        "y": 252,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "Cave of Flames",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "greenmusicbox"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["grab,overalls_stage2,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["explosiveplungerbox"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["overalls,grab,highjumpboots,rustspray"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South",
+                        "x": 180,
+                        "y": 60,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "Above the Clouds",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "skykey"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["highjumpboots,grab,spikedhelmet"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["scissors,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["highjumpboots,overalls_stage2,grab,scissors,fullmoongong"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South",
+                        "x": 396,
+                        "y": 36,
+                        "size": 18
+                    }
+                ]
+            }
+        ]
+    }
+]

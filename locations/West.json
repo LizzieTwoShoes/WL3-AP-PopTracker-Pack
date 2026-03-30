@@ -1,0 +1,307 @@
+[
+    {
+        "name": "West",
+        "chest_unopened_img": "/images/chests/grey_closed_alternate.png",
+        "chest_opened_img": "/images/chests/grey_open_alternate.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Desert Ruins",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bluetablet,greentablet","tablets"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["spikedhelmet,overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["grab,overalls_stage2,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "West",
+                        "x": 36,
+                        "y": 228,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Volcanos Base",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "tophalfofscroll,bottomhalfofscroll","scroll"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["truckwheel"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["flute,truckwheel"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["footofstone,flippers,spikedhelmet"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "West",
+                        "x": 156,
+                        "y": 156,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Pool of Rain",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jar"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["magicseeds"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["flippers"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["flippers,airpump"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "West",
+                        "x": 204,
+                        "y": 228,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "A Town in Chaos",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "jar"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["spikedhelmet"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["grab_stage2,overalls_stage2,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["electricfanpropeller,grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "West",
+                        "x": 348,
+                        "y": 180,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "Beneath the Waves",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "redmusicbox"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["flippers,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["flippers_stage2,grab_stage2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["flippers,saplingofgrowth,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["flippers,grab,highjumpboots,bluechemical,redchemical"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "West",
+                        "x": 204,
+                        "y": 324,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The West Crater",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "tuskred,tuskblue,greenflower","tuskset"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["overalls_stage2,garlic"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["highjumpboots,firedrencher"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["grab,rustspray"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "West",
+                        "x": 204,
+                        "y": 36,
+                        "size": 18
+                    }
+                ]
+            }
+        ]
+    }
+]

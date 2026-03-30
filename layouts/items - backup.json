@@ -1,0 +1,298 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "garlic",
+                                "bluebook&magicwand",
+                                "gear1",
+                                "highjumpboots",
+                                "telephone",
+                                "pouch",
+                                "goldmusicbox",
+                                "redchemical",
+                                "keycardred",
+                                "demonsblood",
+                                "yellowbook"
+                            ],
+                            [
+                                "truckwheel",
+                                "cyancrayon",
+                                "lantern&magicalflame",
+                                "heartcrest",
+                                "fightermannequin",
+                                "tuskred",
+                                "goldenrighteye",
+                                "axe",
+                                "keycardblue",
+                                "magicalflame",
+                                "greenflower"
+                            ],
+                            [
+                                "bluechemical",
+                                "fullmoongong",
+                                "goblet",
+                                "saber",
+                                "footofstone",
+                                "flute",
+                                "bluetablet",
+                                "airpump",
+                                "crown",
+                                "torch",
+                                "jar"
+                            ],
+                            [
+                                "sunmedalliontop",
+                                "spikedhelmet",
+                                "trident&yellowbook",
+                                "mysteryhandle",
+                                "pocketpet",
+                                "jackhammer",
+                                "nightvisionscope",
+                                "magicwand",
+                                "teapot",
+                                "goldenlefteye",
+                                "treasuremap"
+                            ],
+                            [
+                                "lantern",
+                                "eyeofthestorm",
+                                "tablets",
+                                "magnifyingglass",
+                                "tuskset",
+                                "yellowcrayon",
+                                "bluecrayon",
+                                "warpcompact",
+                                "leftglasseye",
+                                "overalls_stage1",
+                                "flippers_stage1"
+                            ],
+                            [
+                                "diamondscrest",
+                                "clubscrest",
+                                "minicar",
+                                "earthenfigure",
+                                "sunmedallionbottom",
+                                "skykey",
+                                "pinkcrayon",
+                                "tophalfofscroll",
+                                "skullring",
+                                "browncrayon",
+                                "statue"
+                            ],
+                            [
+                                "castlebrick",
+                                "bluemusicbox",
+                                "redmusicbox",
+                                "grab",
+                                "ufo",
+                                "rustspray",
+                                "greenmusicbox",
+                                "tuskblue",
+                                "bluebook",
+                                "trident",
+                                "warpremovalapparatus"
+                            ],
+                            [
+                                "gears",
+                                "firedrencher",
+                                "electricfanpropeller",
+                                "explosiveplungerbox",
+                                "greencrayon",
+                                "magicseeds",
+                                "rocket",
+                                "spadescrest",
+                                "gear2",
+                                "pickaxe",
+                                "scissors"
+                            ],
+                            [
+                                "goldmagic",
+                                "dayornightspell",
+                                "skullringred",
+                                "bottomhalfofscroll",
+                                "rightglasseye",
+                                "skullringblue",
+                                "redcrayon",
+                                "locomotive",
+                                "greentablet",
+                                "saplingofgrowth",
+                                "yellowmusicbox"
+                            ],
+                            [
+                                "scroll",
+                                "scepter",
+                                "ornamentalfan",
+                                "update"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "garlic",
+                                "bluebook&magicwand",
+                                "gear1",
+                                "highjumpboots",
+                                "telephone",
+                                "pouch",
+                                "goldmusicbox",
+                                "redchemical",
+                                "keycardred",
+                                "demonsblood",
+                                "yellowbook"
+                            ],
+                            [
+                                "truckwheel",
+                                "cyancrayon",
+                                "lantern&magicalflame",
+                                "heartcrest",
+                                "fightermannequin",
+                                "tuskred",
+                                "goldenrighteye",
+                                "axe",
+                                "keycardblue",
+                                "magicalflame",
+                                "greenflower"
+                            ],
+                            [
+                                "bluechemical",
+                                "fullmoongong",
+                                "goblet",
+                                "saber",
+                                "footofstone",
+                                "flute",
+                                "bluetablet",
+                                "airpump",
+                                "crown",
+                                "torch",
+                                "jar"
+                            ],
+                            [
+                                "sunmedalliontop",
+                                "spikedhelmet",
+                                "trident&yellowbook",
+                                "mysteryhandle",
+                                "pocketpet",
+                                "jackhammer",
+                                "nightvisionscope",
+                                "magicwand",
+                                "teapot",
+                                "goldenlefteye",
+                                "treasuremap"
+                            ],
+                            [
+                                "lantern",
+                                "eyeofthestorm",
+                                "tablets",
+                                "magnifyingglass",
+                                "tuskset",
+                                "yellowcrayon",
+                                "bluecrayon",
+                                "warpcompact",
+                                "leftglasseye",
+                                "overalls, overalls_stage1",
+                                "flippers, flippers_stage1"
+                            ],
+                            [
+                                "diamondscrest",
+                                "clubscrest",
+                                "minicar",
+                                "earthenfigure",
+                                "sunmedallionbottom",
+                                "skykey",
+                                "pinkcrayon",
+                                "tophalfofscroll",
+                                "skullring",
+                                "browncrayon",
+                                "statue"
+                            ],
+                            [
+                                "castlebrick",
+                                "bluemusicbox",
+                                "redmusicbox",
+                                "grab, grab_stage1",
+                                "ufo",
+                                "rustspray",
+                                "greenmusicbox",
+                                "tuskblue",
+                                "bluebook",
+                                "trident",
+                                "warpremovalapparatus"
+                            ],
+                            [
+                                "gears",
+                                "firedrencher",
+                                "electricfanpropeller",
+                                "explosiveplungerbox",
+                                "greencrayon",
+                                "magicseeds",
+                                "rocket",
+                                "spadescrest",
+                                "gear2",
+                                "pickaxe",
+                                "scissors"
+                            ],
+                            [
+                                "goldmagic",
+                                "dayornightspell",
+                                "skullringred",
+                                "bottomhalfofscroll",
+                                "rightglasseye",
+                                "skullringblue",
+                                "redcrayon",
+                                "locomotive",
+                                "greentablet",
+                                "saplingofgrowth",
+                                "yellowmusicbox"
+                            ],
+                            [
+                                "scroll",
+                                "scepter",
+                                "ornamentalfan",
+                                "update"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

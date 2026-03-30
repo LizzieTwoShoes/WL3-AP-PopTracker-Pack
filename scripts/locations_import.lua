@@ -1,0 +1,5 @@
+Tracker:AddLocations("locations/East.json")
+Tracker:AddLocations("locations/North.json")
+Tracker:AddLocations("locations/South.json")
+Tracker:AddLocations("locations/West.json")
+Tracker:AddLocations("locations/Overworld.json")

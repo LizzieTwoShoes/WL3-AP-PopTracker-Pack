@@ -1,0 +1,230 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "yellowmusicbox",
+                                "bluemusicbox",
+                                "greenmusicbox",
+                                "redmusicbox",
+                                "goldmusicbox"
+                            ],
+                            [
+                                "overalls",
+                                "flippers",
+                                "grab",
+                                "highjumpboots",
+                                "garlic",
+                                "spikedhelmet",
+                                "dayornightspell",
+                                "magnifyingglass"
+                            ],
+                            [
+                                "torch",
+                                "warpcompact",
+                                "jar",
+                                "treasuremap",
+                                "skykey",
+                                "axe",
+                                "ornamentalfan"
+                            ],
+                            [
+                                "lantern",
+                                "magicalflame",
+                                "gear1",
+                                "gear2",
+                                "bluebook",
+                                "magicwand",
+                                "trident",
+                                "yellowbook"
+                            ],
+                            [
+                                "skullringred",
+                                "skullringblue",
+                                "bluetablet",
+                                "greentablet",
+                                "tophalfofscroll",
+                                "bottomhalfofscroll",
+                                "tuskblue",
+                                "tuskred",
+                                "greenflower"
+                            ],
+                            [
+                                "redchemical",
+                                "bluechemical",
+                                "keycardred",
+                                "keycardblue",
+                                "goldenrighteye",
+                                "goldenlefteye",
+                                "rightglasseye",
+                                "leftglasseye",
+                                "sunmedalliontop",
+                                "sunmedallionbottom"
+                            ],
+                            [
+                                "airpump",
+                                "saplingofgrowth",
+                                "nightvisionscope",
+                                "electricfanpropeller",
+                                "rustspray",
+                                "statue",
+                                "explosiveplungerbox",
+                                "scissors"
+                            ],
+                            [
+                                "castlebrick",
+                                "warpremovalapparatus",
+                                "jackhammer",
+                                "pickaxe",
+                                "mysteryhandle",
+                                "demonsblood",
+                                "goldmagic",
+                                "truckwheel"
+                            ],
+                            [
+                                "flute",
+                                "footofstone",
+                                "scepter",
+                                "eyeofthestorm",
+                                "pouch",
+                                "magicseeds",
+                                "fullmoongong",
+                                "firedrencher"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "yellowmusicbox",
+                                "bluemusicbox",
+                                "greenmusicbox",
+                                "redmusicbox",
+                                "goldmusicbox"
+                            ],
+                            [
+                                "overalls",
+                                "flippers",
+                                "grab",
+                                "highjumpboots",
+                                "garlic",
+                                "spikedhelmet",
+                                "dayornightspell",
+                                "magnifyingglass"
+                            ],
+                            [
+                                "torch",
+                                "warpcompact",
+                                "jar",
+                                "treasuremap",
+                                "skykey",
+                                "axe",
+                                "ornamentalfan"
+                            ],
+                            [
+                                "lantern",
+                                "magicalflame",
+                                "gear1",
+                                "gear2",
+                                "bluebook",
+                                "magicwand",
+                                "yellowbook",
+                                "trident"
+                            ],
+                            [
+                                "skullringblue",
+                                "skullringred",
+                                "bluetablet",
+                                "greentablet",
+                                "tophalfofscroll",
+                                "bottomhalfofscroll",
+                                "tuskblue",
+                                "tuskred",
+                                "greenflower"
+                            ],
+                            [
+                                "redchemical",
+                                "bluechemical",
+                                "keycardred",
+                                "keycardblue",
+                                "goldenrighteye",
+                                "goldenlefteye",
+                                "rightglasseye",
+                                "leftglasseye",
+                                "sunmedalliontop",
+                                "sunmedallionbottom"
+                            ],
+                            [
+                                "airpump",
+                                "saplingofgrowth",
+                                "nightvisionscope",
+                                "electricfanpropeller",
+                                "rustspray",
+                                "statue",
+                                "explosiveplungerbox",
+                                "scissors"
+                            ],
+                            [
+                                "castlebrick",
+                                "warpremovalapparatus",
+                                "jackhammer",
+                                "pickaxe",
+                                "mysteryhandle",
+                                "demonsblood",
+                                "goldmagic",
+                                "truckwheel"
+                            ],
+                            [
+                                "flute",
+                                "footofstone",
+                                "scepter",
+                                "eyeofthestorm",
+                                "pouch",
+                                "magicseeds",
+                                "fullmoongong",
+                                "firedrencher"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,56 +1,56 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Overalls",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/lead_overalls.png",
+        "codes": "lead_overalls"
+      },
+      {
+        "img": "images/items/super_jump_slam_overalls.png",
+        "codes": "super_jump_slam_overalls"
+      }
+    ]
+  },
+  {
+    "name": "Grab",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/grab_glove.png",
+        "codes": "grab_glove"
+      },
+      {
+        "img": "images/items/super_grab_glove.png",
+        "codes": "super_grab_glove"
+      }
+    ]
+  },
+  {
+    "name": "Flippers",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/swimming_flippers.png",
+        "codes": "swimming_flippers"
+      },
+      {
+        "img": "images/items/prince_frogs_gloves.png",
+        "codes": "prince_frogs_gloves"
+      }
+    ]
+  },
   {
     "name": "Toggle",
     "type": "toggle",
     "img": "images/items/toggle.png",
     "codes": "toggle"
   },
-  {
-    "name": "Progressive",
-    "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
-      }
-    ]
-  }
 ]

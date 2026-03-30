@@ -1,0 +1,84 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "North",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "North"
+                    ]
+                }
+            },
+            {
+                "title": "West",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "West"
+                    ]
+                }
+            },
+            {
+                "title": "South",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "South"
+                    ]
+                }
+            },
+            {
+                "title": "East",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "East"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "North",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "North"
+                    ]
+                }
+            },
+            {
+                "title": "West",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "West"
+                    ]
+                }
+            },
+            {
+                "title": "South",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "South"
+                    ]
+                }
+            },
+            {
+                "title": "East",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "East"
+                    ]
+                }
+            }
+        ]
+    }
+}
