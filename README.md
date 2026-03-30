@@ -1,20 +1,7 @@
-# Template Pack for PopTracker
+## Wario Land 3 AP PopTracker
 
-This a template tracker package for PopTracker.
+To install, just place the latest release zip in the "packs" folder in your PopTracker installation.
 
-Includes examples for AP and SNES memory autotracking and beginner-friendly explanations in the pack.
+# Current Issues
 
-## Installation
-
-Just download the latest build or source and put in your packs folder (unpacked).
-
-## More Info
-
-Check out PopTrackers Documentation on
-packs [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md).
-
-Still having trouble realizing your pack and looking for help or just want more information about everything PopTracker? Check out the ['Unofficial' PopTracker Discord Server](https://discord.com/invite/gwThqMCPgK)!
-
-## License
-
-Feel free to use this template without credit for all your PopTracker packs!
+The goal (defeating Rudy) is currently hardcoded to require all 5 music boxes. If the yaml you used to generate your seed requires less, the tracker square for The Temple will not be accurate.
