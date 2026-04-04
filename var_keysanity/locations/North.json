@@ -102,7 +102,7 @@
                         "name": "Blue Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
-                        "access_rules": ["highjumpboots,grab,overalls,goldmagic"],
+                        "access_rules": ["highjumpboots,goldmagic"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -127,8 +127,8 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": [],
-                        "visibility_rules": ["n2grey"],
+                        "access_rules": ["n2grey"],
+                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {

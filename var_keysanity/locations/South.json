@@ -43,7 +43,7 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["highjumpboots,s1blue"],
+                        "access_rules": ["[highjumpboots],s1blue"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -124,7 +124,7 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["flippers,spikedhelmet,scepter,s2blue"],
+                        "access_rules": ["flippers,spikedhelmet,scepter,garlic,s2blue"],
                         "visibility_rules": [],
                         "item_count": 1
                     },

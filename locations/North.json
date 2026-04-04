@@ -193,7 +193,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["[flippers]"],
+                        "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -201,7 +201,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["garlic,[flippers]","garlic,[highjumpboots]"],
+                        "access_rules": ["garlic"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
