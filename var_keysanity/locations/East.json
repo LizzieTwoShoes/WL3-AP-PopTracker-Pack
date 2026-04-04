@@ -1,0 +1,580 @@
+[
+    {
+        "name": "East",
+        "chest_unopened_img": "/images/items/grey_closed.png",
+        "chest_opened_img": "/images/items/grey_open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "The Stagnant Swamp",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "ornamentalfan"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["e1grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["footofstone,overalls,e1red","footofstone,flippers_stage2,highjumpboots,e1red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["footofstone,highjumpboots,e1green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["explosiveplungerbox,e1blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["footofstone"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["footofstone,highjumpboots,grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["explosiveplungerbox"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 36,
+                        "y": 228,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Frigid Sea",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bluebook,magicwand"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["e2grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["grab,e2red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["scepter,flippers,e2green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["flippers_stage2,e2blue","sunmedallionbottom,sunmedalliontop,e2blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["scepter,flippers"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["flippers_stage2","sunmedallionbottom,sunmedalliontop"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 252,
+                        "y": 300,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "Castle of Illusions",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lantern,magicalflame"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["overalls,e3grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["grab,e3red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["grab,e3green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["grab,e3blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["grab,sunmedalliontop,sunmedallionbottom,overalls_stage2","grab,sunmedallionbottom,sunmedalliontop,highjumpboots","grab_stage2,overalls_stage2","grab_stage2,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["grab_stage2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["castlebrick,grab,overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 156,
+                        "y": 156,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Colossal Hole",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "tuskblue,tuskred,greenflower"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["e4grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["garlic,e4red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["highjumpboots,e4green","sunmedallionbottom,sunmedalliontop,e4green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["explosiveplungerbox,highjumpboots,e4blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["garlic,grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["highjumpboots","sunmedallionbottom,sunmedalliontop"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["explosiveplungerbox,highjumpboots"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 252,
+                        "y": 204,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The Warped Void",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "warpcompact"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["e5grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["warpremovalapparatus,e5red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["grab,warpremovalapparatus,e5green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["keycardred,keycardblue,grab,e5blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["warpremovalapparatus"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["grab,warpremovalapparatus"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["keycardred,keycardblue,grab"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 369,
+                        "y": 255,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "The East Crater",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "treasuremap"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["grab,e6grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["grab,firedrencher,overalls,e6red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["grab,jackhammer,e6green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["grab,highjumpboots,pickaxe,e6blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": ["grab,overalls_stage2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["grab,firedrencher,overalls"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["grab,jackhammer"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["grab,highjumpboots,pickaxe"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 156,
+                        "y": 36,
+                        "size": 18
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Fear",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "torch"
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Chest",
+                        "chest_unopened_img": "/images/chests/grey_closed.png",
+                        "chest_opened_img": "/images/chests/grey_open.png",
+                        "access_rules": ["e7grey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Chest",
+                        "chest_unopened_img": "/images/chests/red_closed.png",
+                        "chest_opened_img": "/images/chests/red_open.png",
+                        "access_rules": ["grab_stage2,mysteryhandle,e7red"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Chest",
+                        "chest_unopened_img": "/images/chests/green_closed.png",
+                        "chest_opened_img": "/images/chests/green_open.png",
+                        "access_rules": ["grab,mysteryhandle,e7green"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Chest",
+                        "chest_unopened_img": "/images/chests/blue_closed.png",
+                        "chest_opened_img": "/images/chests/blue_open.png",
+                        "access_rules": ["demonsblood,e7blue"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["grab_stage2,highjumpboots,mysteryhandle"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["grab,mysteryhandle"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["demonsblood"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East",
+                        "x": 372,
+                        "y": 156,
+                        "size": 18
+                    }
+                ]
+            }
+        ]
+    }
+]

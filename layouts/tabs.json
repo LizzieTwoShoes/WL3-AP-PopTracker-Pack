@@ -3,6 +3,18 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "North",
+                        "West",
+                        "South",
+                        "East"
+                    ]
+                }
+            },
+            {
                 "title": "North",
                 "content": {
                     "type": "map",
@@ -43,6 +55,18 @@
     "tabbed_maps_vertical": {
         "type": "tabbed",
         "tabs": [
+            {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "North",
+                        "West",
+                        "South",
+                        "East"
+                    ]
+                }
+            },
             {
                 "title": "North",
                 "content": {

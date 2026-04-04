@@ -8,7 +8,7 @@
         "codes": "garlic"
     },
     {
-        "name": "highjumpboots",
+        "name": "High Jump Boots",
         "type": "toggle",
         "img": "images/items/highjumpboots.png",
         "initial_active_state": false,
@@ -16,7 +16,7 @@
         "codes": "highjumpboots"
     },
     {
-        "name": "telephone",
+        "name": "Telephone",
         "type": "toggle",
         "img": "images/items/telephone.png",
         "initial_active_state": false,
@@ -24,7 +24,7 @@
         "codes": "telephone"
     },
     {
-        "name": "pouch",
+        "name": "Pouch",
         "type": "toggle",
         "img": "images/items/pouch.png",
         "initial_active_state": false,
@@ -32,7 +32,7 @@
         "codes": "pouch"
     },
     {
-        "name": "goldmusicbox",
+        "name": "Gold Music Box",
         "type": "toggle",
         "img": "images/items/goldmusicbox.png",
         "initial_active_state": false,
@@ -40,7 +40,7 @@
         "codes": "goldmusicbox"
     },
     {
-        "name": "redchemical",
+        "name": "Red Chemical",
         "type": "toggle",
         "img": "images/items/redchemical.png",
         "initial_active_state": false,
@@ -48,7 +48,7 @@
         "codes": "redchemical"
     },
     {
-        "name": "keycardred",
+        "name": "Key Card Red",
         "type": "toggle",
         "img": "images/items/keycardred.png",
         "initial_active_state": false,
@@ -56,7 +56,7 @@
         "codes": "keycardred"
     },
     {
-        "name": "demonsblood",
+        "name": "Demon's Blood",
         "type": "toggle",
         "img": "images/items/demonsblood.png",
         "initial_active_state": false,
@@ -64,7 +64,7 @@
         "codes": "demonsblood"
     },
     {
-        "name": "truckwheel",
+        "name": "Truck Wheel",
         "type": "toggle",
         "img": "images/items/truckwheel.png",
         "initial_active_state": false,
@@ -72,7 +72,7 @@
         "codes": "truckwheel"
     },
     {
-        "name": "cyancrayon",
+        "name": "Cyan Crayon",
         "type": "toggle",
         "img": "images/items/cyancrayon.png",
         "initial_active_state": false,
@@ -80,7 +80,7 @@
         "codes": "cyancrayon"
     },
     {
-        "name": "heartcrest",
+        "name": "Heart Crest",
         "type": "toggle",
         "img": "images/items/heartcrest.png",
         "initial_active_state": false,
@@ -88,7 +88,7 @@
         "codes": "heartcrest"
     },
     {
-        "name": "fightermannequin",
+        "name": "Fighter Mannequin",
         "type": "toggle",
         "img": "images/items/fightermannequin.png",
         "initial_active_state": false,
@@ -96,7 +96,7 @@
         "codes": "fightermannequin"
     },
     {
-        "name": "goldenrighteye",
+        "name": "Golden Right Eye",
         "type": "toggle",
         "img": "images/items/goldenrighteye.png",
         "initial_active_state": false,
@@ -104,7 +104,7 @@
         "codes": "goldenrighteye"
     },
     {
-        "name": "axe",
+        "name": "Axe",
         "type": "toggle",
         "img": "images/items/axe.png",
         "initial_active_state": false,
@@ -112,7 +112,7 @@
         "codes": "axe"
     },
     {
-        "name": "keycardblue",
+        "name": "Key Card Blue",
         "type": "toggle",
         "img": "images/items/keycardblue.png",
         "initial_active_state": false,
@@ -120,7 +120,7 @@
         "codes": "keycardblue"
     },
     {
-        "name": "bluechemical",
+        "name": "Blue Chemical",
         "type": "toggle",
         "img": "images/items/bluechemical.png",
         "initial_active_state": false,
@@ -128,7 +128,7 @@
         "codes": "bluechemical"
     },
     {
-        "name": "fullmoongong",
+        "name": "Full Moon Gong",
         "type": "toggle",
         "img": "images/items/fullmoongong.png",
         "initial_active_state": false,
@@ -136,7 +136,7 @@
         "codes": "fullmoongong"
     },
     {
-        "name": "goblet",
+        "name": "Goblet",
         "type": "toggle",
         "img": "images/items/goblet.png",
         "initial_active_state": false,
@@ -144,7 +144,7 @@
         "codes": "goblet"
     },
     {
-        "name": "saber",
+        "name": "Saber",
         "type": "toggle",
         "img": "images/items/saber.png",
         "initial_active_state": false,
@@ -152,7 +152,7 @@
         "codes": "saber"
     },
     {
-        "name": "footofstone",
+        "name": "Foot of Stone",
         "type": "toggle",
         "img": "images/items/footofstone.png",
         "initial_active_state": false,
@@ -160,7 +160,7 @@
         "codes": "footofstone"
     },
     {
-        "name": "flute",
+        "name": "Flute",
         "type": "toggle",
         "img": "images/items/flute.png",
         "initial_active_state": false,
@@ -168,7 +168,7 @@
         "codes": "flute"
     },
     {
-        "name": "airpump",
+        "name": "Air Pump",
         "type": "toggle",
         "img": "images/items/airpump.png",
         "initial_active_state": false,
@@ -176,7 +176,7 @@
         "codes": "airpump"
     },
     {
-        "name": "crown",
+        "name": "Crown",
         "type": "toggle",
         "img": "images/items/crown.png",
         "initial_active_state": false,
@@ -184,7 +184,7 @@
         "codes": "crown"
     },
     {
-        "name": "torch",
+        "name": "Torch",
         "type": "toggle",
         "img": "images/items/torch.png",
         "initial_active_state": false,
@@ -192,7 +192,7 @@
         "codes": "torch"
     },
     {
-        "name": "jar",
+        "name": "Jar",
         "type": "toggle",
         "img": "images/items/jar.png",
         "initial_active_state": false,
@@ -200,7 +200,7 @@
         "codes": "jar"
     },
     {
-        "name": "sunmedalliontop",
+        "name": "Sun Medallion Top",
         "type": "toggle",
         "img": "images/items/sunmedalliontop.png",
         "initial_active_state": false,
@@ -208,7 +208,7 @@
         "codes": "sunmedalliontop"
     },
     {
-        "name": "spikedhelmet",
+        "name": "Spiked Helmet",
         "type": "toggle",
         "img": "images/items/spikedhelmet.png",
         "initial_active_state": false,
@@ -216,7 +216,7 @@
         "codes": "spikedhelmet"
     },
     {
-        "name": "mysteryhandle",
+        "name": "Mystery Handle",
         "type": "toggle",
         "img": "images/items/mysteryhandle.png",
         "initial_active_state": false,
@@ -224,7 +224,7 @@
         "codes": "mysteryhandle"
     },
     {
-        "name": "pocketpet",
+        "name": "Pocket Pet",
         "type": "toggle",
         "img": "images/items/pocketpet.png",
         "initial_active_state": false,
@@ -232,7 +232,7 @@
         "codes": "pocketpet"
     },
     {
-        "name": "jackhammer",
+        "name": "Jackhammer",
         "type": "toggle",
         "img": "images/items/jackhammer.png",
         "initial_active_state": false,
@@ -240,7 +240,7 @@
         "codes": "jackhammer"
     },
     {
-        "name": "nightvisionscope",
+        "name": "Night Vision Scope",
         "type": "toggle",
         "img": "images/items/nightvisionscope.png",
         "initial_active_state": false,
@@ -248,7 +248,7 @@
         "codes": "nightvisionscope"
     },
     {
-        "name": "teapot",
+        "name": "Teapot",
         "type": "toggle",
         "img": "images/items/teapot.png",
         "initial_active_state": false,
@@ -256,7 +256,7 @@
         "codes": "teapot"
     },
     {
-        "name": "goldenlefteye",
+        "name": "Golden Left Eye",
         "type": "toggle",
         "img": "images/items/goldenlefteye.png",
         "initial_active_state": false,
@@ -264,7 +264,7 @@
         "codes": "goldenlefteye"
     },
     {
-        "name": "treasuremap",
+        "name": "Treasure Map",
         "type": "toggle",
         "img": "images/items/treasuremap.png",
         "initial_active_state": false,
@@ -272,7 +272,7 @@
         "codes": "treasuremap"
     },
     {
-        "name": "eyeofthestorm",
+        "name": "Eye of the Storm",
         "type": "toggle",
         "img": "images/items/eyeofthestorm.png",
         "initial_active_state": false,
@@ -280,7 +280,7 @@
         "codes": "eyeofthestorm"
     },
     {
-        "name": "magnifyingglass",
+        "name": "Magnifying Glass",
         "type": "toggle",
         "img": "images/items/magnifyingglass.png",
         "initial_active_state": false,
@@ -288,7 +288,7 @@
         "codes": "magnifyingglass"
     },
     {
-        "name": "yellowcrayon",
+        "name": "Yellow Crayon",
         "type": "toggle",
         "img": "images/items/yellowcrayon.png",
         "initial_active_state": false,
@@ -296,7 +296,7 @@
         "codes": "yellowcrayon"
     },
     {
-        "name": "bluecrayon",
+        "name": "Blue Crayon",
         "type": "toggle",
         "img": "images/items/bluecrayon.png",
         "initial_active_state": false,
@@ -304,7 +304,7 @@
         "codes": "bluecrayon"
     },
     {
-        "name": "warpcompact",
+        "name": "Warp Compact",
         "type": "toggle",
         "img": "images/items/warpcompact.png",
         "initial_active_state": false,
@@ -312,7 +312,7 @@
         "codes": "warpcompact"
     },
     {
-        "name": "leftglasseye",
+        "name": "Left Glass Eye",
         "type": "toggle",
         "img": "images/items/leftglasseye.png",
         "initial_active_state": false,
@@ -320,7 +320,7 @@
         "codes": "leftglasseye"
     },
     {
-        "name": "overalls",
+        "name": "Overalls",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -328,13 +328,13 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "leadoveralls",
+                "name": "Lead Overalls",
                 "inherit_codes": true,
                 "img": "/images/items/leadoveralls.png",
                 "codes": "overalls, overalls_stage1"
             },
             {
-                "name": "superjumpslamoveralls",
+                "name": "Super Jump Slam Overalls",
                 "inherit_codes": true,
                 "img": "/images/items/superjumpslamoveralls.png",
                 "codes": "overalls_stage2"
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "name": "flippers",
+        "name": "Flippers",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -350,13 +350,13 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "swimmingflippers",
+                "name": "Swimming Flippers",
                 "inherit_codes": true,
                 "img": "/images/items/swimmingflippers.png",
                 "codes": "flippers, flippers_stage1"
             },
             {
-                "name": "princefrogsgloves",
+                "name": "Prince Frog's Gloves",
                 "inherit_codes": true,
                 "img": "/images/items/princefrogsgloves.png",
                 "codes": "flippers_stage2"
@@ -364,7 +364,7 @@
         ]
     },
     {
-        "name": "diamondscrest",
+        "name": "Diamonds Crest",
         "type": "toggle",
         "img": "images/items/diamondscrest.png",
         "initial_active_state": false,
@@ -372,7 +372,7 @@
         "codes": "diamondscrest"
     },
     {
-        "name": "clubscrest",
+        "name": "Clubs Crest",
         "type": "toggle",
         "img": "images/items/clubscrest.png",
         "initial_active_state": false,
@@ -380,7 +380,7 @@
         "codes": "clubscrest"
     },
     {
-        "name": "minicar",
+        "name": "Minicar",
         "type": "toggle",
         "img": "images/items/minicar.png",
         "initial_active_state": false,
@@ -388,7 +388,7 @@
         "codes": "minicar"
     },
     {
-        "name": "earthenfigure",
+        "name": "Earthen Figure",
         "type": "toggle",
         "img": "images/items/earthenfigure.png",
         "initial_active_state": false,
@@ -396,7 +396,7 @@
         "codes": "earthenfigure"
     },
     {
-        "name": "sunmedallionbottom",
+        "name": "Sun Medallion Bottom",
         "type": "toggle",
         "img": "images/items/sunmedallionbottom.png",
         "initial_active_state": false,
@@ -404,7 +404,7 @@
         "codes": "sunmedallionbottom"
     },
     {
-        "name": "skykey",
+        "name": "Sky Key",
         "type": "toggle",
         "img": "images/items/skykey.png",
         "initial_active_state": false,
@@ -412,7 +412,7 @@
         "codes": "skykey"
     },
     {
-        "name": "pinkcrayon",
+        "name": "Pink Crayon",
         "type": "toggle",
         "img": "images/items/pinkcrayon.png",
         "initial_active_state": false,
@@ -420,7 +420,7 @@
         "codes": "pinkcrayon"
     },
     {
-        "name": "browncrayon",
+        "name": "Brown Crayon",
         "type": "toggle",
         "img": "images/items/browncrayon.png",
         "initial_active_state": false,
@@ -428,7 +428,7 @@
         "codes": "browncrayon"
     },
     {
-        "name": "statue",
+        "name": "Statue",
         "type": "toggle",
         "img": "images/items/statue.png",
         "initial_active_state": false,
@@ -436,7 +436,7 @@
         "codes": "statue"
     },
     {
-        "name": "castlebrick",
+        "name": "Castle Brick",
         "type": "toggle",
         "img": "images/items/castlebrick.png",
         "initial_active_state": false,
@@ -444,7 +444,7 @@
         "codes": "castlebrick"
     },
     {
-        "name": "bluemusicbox",
+        "name": "Blue Music Box",
         "type": "toggle",
         "img": "images/items/bluemusicbox.png",
         "initial_active_state": false,
@@ -452,7 +452,7 @@
         "codes": "bluemusicbox"
     },
     {
-        "name": "redmusicbox",
+        "name": "Red Music Box",
         "type": "toggle",
         "img": "images/items/redmusicbox.png",
         "initial_active_state": false,
@@ -460,7 +460,7 @@
         "codes": "redmusicbox"
     },
     {
-        "name": "grab",
+        "name": "Grab",
         "type": "progressive",
         "loop": false,
         "allow_disabled": true,
@@ -468,13 +468,13 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "grabglove",
+                "name": "Grab Glove",
                 "inherit_codes": true,
                 "img": "/images/items/grabglove.png",
                 "codes": "grab, grab_stage1"
             },
             {
-                "name": "supergrabgloves",
+                "name": "Super Grab Gloves",
                 "inherit_codes": true,
                 "img": "/images/items/supergrabgloves.png",
                 "codes": "grab_stage2"
@@ -482,7 +482,7 @@
         ]
     },
     {
-        "name": "ufo",
+        "name": "UFO",
         "type": "toggle",
         "img": "images/items/ufo.png",
         "initial_active_state": false,
@@ -490,7 +490,7 @@
         "codes": "ufo"
     },
     {
-        "name": "rustspray",
+        "name": "Rust Spray",
         "type": "toggle",
         "img": "images/items/rustspray.png",
         "initial_active_state": false,
@@ -498,7 +498,7 @@
         "codes": "rustspray"
     },
     {
-        "name": "greenmusicbox",
+        "name": "Green Music Box",
         "type": "toggle",
         "img": "images/items/greenmusicbox.png",
         "initial_active_state": false,
@@ -506,7 +506,7 @@
         "codes": "greenmusicbox"
     },
     {
-        "name": "tuskblue",
+        "name": "Tusk Blue",
         "type": "toggle",
         "img": "images/items/tuskblue.png",
         "initial_active_state": false,
@@ -514,7 +514,7 @@
         "codes": "tuskblue"
     },
     {
-        "name": "warpremovalapparatus",
+        "name": "Warp Removal Apparatus",
         "type": "toggle",
         "img": "images/items/warpremovalapparatus.png",
         "initial_active_state": false,
@@ -522,7 +522,7 @@
         "codes": "warpremovalapparatus"
     },
     {
-        "name": "firedrencher",
+        "name": "Fire Drencher",
         "type": "toggle",
         "img": "images/items/firedrencher.png",
         "initial_active_state": false,
@@ -530,7 +530,7 @@
         "codes": "firedrencher"
     },
     {
-        "name": "electricfanpropeller",
+        "name": "Electric Fan Propeller",
         "type": "toggle",
         "img": "images/items/electricfanpropeller.png",
         "initial_active_state": false,
@@ -538,7 +538,7 @@
         "codes": "electricfanpropeller"
     },
     {
-        "name": "explosiveplungerbox",
+        "name": "Explosive Plunger Box",
         "type": "toggle",
         "img": "images/items/explosiveplungerbox.png",
         "initial_active_state": false,
@@ -546,7 +546,7 @@
         "codes": "explosiveplungerbox"
     },
     {
-        "name": "greencrayon",
+        "name": "Green Crayon",
         "type": "toggle",
         "img": "images/items/greencrayon.png",
         "initial_active_state": false,
@@ -554,7 +554,7 @@
         "codes": "greencrayon"
     },
     {
-        "name": "magicseeds",
+        "name": "Magic Seeds",
         "type": "toggle",
         "img": "images/items/magicseeds.png",
         "initial_active_state": false,
@@ -562,7 +562,7 @@
         "codes": "magicseeds"
     },
     {
-        "name": "rocket",
+        "name": "Rocket",
         "type": "toggle",
         "img": "images/items/rocket.png",
         "initial_active_state": false,
@@ -570,7 +570,7 @@
         "codes": "rocket"
     },
     {
-        "name": "spadescrest",
+        "name": "Spades Crest",
         "type": "toggle",
         "img": "images/items/spadescrest.png",
         "initial_active_state": false,
@@ -578,7 +578,7 @@
         "codes": "spadescrest"
     },
     {
-        "name": "pickaxe",
+        "name": "Pickaxe",
         "type": "toggle",
         "img": "images/items/pickaxe.png",
         "initial_active_state": false,
@@ -586,7 +586,7 @@
         "codes": "pickaxe"
     },
     {
-        "name": "scissors",
+        "name": "Scissors",
         "type": "toggle",
         "img": "images/items/scissors.png",
         "initial_active_state": false,
@@ -594,7 +594,7 @@
         "codes": "scissors"
     },
     {
-        "name": "goldmagic",
+        "name": "Gold Magic",
         "type": "toggle",
         "img": "images/items/goldmagic.png",
         "initial_active_state": false,
@@ -602,7 +602,7 @@
         "codes": "goldmagic"
     },
     {
-        "name": "dayornightspell",
+        "name": "Day or Night Spell",
         "type": "toggle",
         "img": "images/items/dayornightspell.png",
         "initial_active_state": false,
@@ -610,7 +610,7 @@
         "codes": "dayornightspell"
     },
     {
-        "name": "rightglasseye",
+        "name": "Right Glass Eye",
         "type": "toggle",
         "img": "images/items/rightglasseye.png",
         "initial_active_state": false,
@@ -618,7 +618,7 @@
         "codes": "rightglasseye"
     },
     {
-        "name": "redcrayon",
+        "name": "Red Crayon",
         "type": "toggle",
         "img": "images/items/redcrayon.png",
         "initial_active_state": false,
@@ -626,7 +626,7 @@
         "codes": "redcrayon"
     },
     {
-        "name": "locomotive",
+        "name": "Locomotive",
         "type": "toggle",
         "img": "images/items/locomotive.png",
         "initial_active_state": false,
@@ -634,7 +634,7 @@
         "codes": "locomotive"
     },
     {
-        "name": "saplingofgrowth",
+        "name": "Sapling of Growth",
         "type": "toggle",
         "img": "images/items/saplingofgrowth.png",
         "initial_active_state": false,
@@ -642,7 +642,7 @@
         "codes": "saplingofgrowth"
     },
     {
-        "name": "yellowmusicbox",
+        "name": "Yellow Music Box",
         "type": "toggle",
         "img": "images/items/yellowmusicbox.png",
         "initial_active_state": false,
@@ -650,7 +650,7 @@
         "codes": "yellowmusicbox"
     },
     {
-        "name": "scepter",
+        "name": "Scepter",
         "type": "toggle",
         "img": "images/items/scepter.png",
         "initial_active_state": false,
@@ -658,7 +658,7 @@
         "codes": "scepter"
     },
     {
-        "name": "ornamentalfan",
+        "name": "Ornamental Fan",
         "type": "toggle",
         "img": "images/items/ornamentalfan.png",
         "initial_active_state": false,
@@ -666,7 +666,7 @@
         "codes": "ornamentalfan"
     },
     {
-        "name": "lantern",
+        "name": "Lantern",
         "type": "toggle",
         "img": "images/items/lantern.png",
         "initial_active_state": false,
@@ -674,7 +674,7 @@
         "codes": "lantern"
     },
     {
-        "name": "magicalflame",
+        "name": "Magical Flame",
         "type": "toggle",
         "img": "images/items/magicalflame.png",
         "initial_active_state": false,
@@ -690,7 +690,7 @@
         "codes": "lantern&magicalflame"
     },
     {
-        "name": "gear1",
+        "name": "Gear1",
         "type": "toggle",
         "img": "images/items/gear1.png",
         "initial_active_state": false,
@@ -698,7 +698,7 @@
         "codes": "gear1"
     },
     {
-        "name": "gear2",
+        "name": "Gear2",
         "type": "toggle",
         "img": "images/items/gear2.png",
         "initial_active_state": false,
@@ -714,7 +714,7 @@
         "codes": "gears"
     },
     {
-        "name": "bluebook",
+        "name": "Blue Book",
         "type": "toggle",
         "img": "images/items/bluebook.png",
         "initial_active_state": false,
@@ -722,7 +722,7 @@
         "codes": "bluebook"
     },
     {
-        "name": "magicwand",
+        "name": "Magic Wand",
         "type": "toggle",
         "img": "images/items/magicwand.png",
         "initial_active_state": false,
@@ -738,7 +738,7 @@
         "codes": "bluebook&magicwand"
     },
     {
-        "name": "trident",
+        "name": "Trident",
         "type": "toggle",
         "img": "images/items/trident.png",
         "initial_active_state": false,
@@ -746,7 +746,7 @@
         "codes": "trident"
     },
     {
-        "name": "yellowbook",
+        "name": "Yellow Book",
         "type": "toggle",
         "img": "images/items/yellowbook.png",
         "initial_active_state": false,
@@ -762,7 +762,7 @@
         "codes": "trident&yellowbook"
     },
     {
-        "name": "skullringblue",
+        "name": "Skull Ring Blue",
         "type": "toggle",
         "img": "images/items/skullringblue.png",
         "initial_active_state": false,
@@ -770,7 +770,7 @@
         "codes": "skullringblue"
     },
     {
-        "name": "skullringred",
+        "name": "Skull Ring Red",
         "type": "toggle",
         "img": "images/items/skullringred.png",
         "initial_active_state": false,
@@ -786,7 +786,7 @@
         "codes": "skullring"
     },
     {
-        "name": "bluetablet",
+        "name": "Blue Tablet",
         "type": "toggle",
         "img": "images/items/bluetablet.png",
         "initial_active_state": false,
@@ -794,7 +794,7 @@
         "codes": "bluetablet"
     },
     {
-        "name": "greentablet",
+        "name": "Green Tablet",
         "type": "toggle",
         "img": "images/items/greentablet.png",
         "initial_active_state": false,
@@ -810,7 +810,7 @@
         "codes": "tablets"
     },
     {
-        "name": "tophalfofscroll",
+        "name": "Top Half of Scroll",
         "type": "toggle",
         "img": "images/items/tophalfofscroll.png",
         "initial_active_state": false,
@@ -818,7 +818,7 @@
         "codes": "tophalfofscroll"
     },
     {
-        "name": "bottomhalfofscroll",
+        "name": "Bottom Half of Scroll",
         "type": "toggle",
         "img": "images/items/bottomhalfofscroll.png",
         "initial_active_state": false,
@@ -834,7 +834,7 @@
         "codes": "scroll"
     },
     {
-        "name": "tuskred",
+        "name": "Tusk Red",
         "type": "toggle",
         "img": "images/items/tuskred.png",
         "initial_active_state": false,
@@ -842,7 +842,7 @@
         "codes": "tuskred"
     },
     {
-        "name": "greenflower",
+        "name": "Green Flower",
         "type": "toggle",
         "img": "images/items/greenflower.png",
         "initial_active_state": false,
@@ -856,5 +856,963 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "tuskset"
+    },
+    {
+        "name": "Blank Placeholder",
+        "type": "toggle",
+        "img": "images/items/blank.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "blank"
+    },
+    {
+        "name": "N1 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n1grey"
+    },
+    {
+        "name": "N1 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n1red"
+    },
+    {
+        "name": "N1 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n1green"
+    },
+    {
+        "name": "N1 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n1blue"
+    },
+    {
+        "name": "N2 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n2grey"
+    },
+    {
+        "name": "N2 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n2red"
+    },
+    {
+        "name": "N2 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n2green"
+    },
+    {
+        "name": "N2 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n2blue"
+    },
+    {
+        "name": "N3 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n3grey"
+    },
+    {
+        "name": "N3 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n3red"
+    },
+    {
+        "name": "N3 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n3green"
+    },
+    {
+        "name": "N3 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n3blue"
+    },
+    {
+        "name": "N4 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n4grey"
+    },
+    {
+        "name": "N4 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n4red"
+    },
+    {
+        "name": "N4 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n4green"
+    },
+    {
+        "name": "N4 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n4blue"
+    },
+    {
+        "name": "N5 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n5grey"
+    },
+    {
+        "name": "N5 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n5red"
+    },
+    {
+        "name": "N5 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n5green"
+    },
+    {
+        "name": "N5 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n5blue"
+    },
+    {
+        "name": "N6 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n6grey"
+    },
+    {
+        "name": "N6 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n6red"
+    },
+    {
+        "name": "N6 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n6green"
+    },
+    {
+        "name": "N6 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "n6blue"
+    },
+    {
+        "name": "W1 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w1grey"
+    },
+    {
+        "name": "W1 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w1red"
+    },
+    {
+        "name": "W1 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w1green"
+    },
+    {
+        "name": "W1 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w1blue"
+    },
+    {
+        "name": "W2 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w2grey"
+    },
+    {
+        "name": "W2 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w2red"
+    },
+    {
+        "name": "W2 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w2green"
+    },
+    {
+        "name": "W2 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w2blue"
+    },
+    {
+        "name": "W3 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w3grey"
+    },
+    {
+        "name": "W3 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w3red"
+    },
+    {
+        "name": "W3 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w3green"
+    },
+    {
+        "name": "W3 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w3blue"
+    },
+    {
+        "name": "W4 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w4grey"
+    },
+    {
+        "name": "W4 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w4red"
+    },
+    {
+        "name": "W4 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w4green"
+    },
+    {
+        "name": "W4 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w4blue"
+    },
+    {
+        "name": "W5 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w5grey"
+    },
+    {
+        "name": "W5 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w5red"
+    },
+    {
+        "name": "W5 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w5green"
+    },
+    {
+        "name": "W5 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w5blue"
+    },
+    {
+        "name": "W6 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w6grey"
+    },
+    {
+        "name": "W6 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w6red"
+    },
+    {
+        "name": "W6 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w6green"
+    },
+    {
+        "name": "W6 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "w6blue"
+    },
+    {
+        "name": "S1 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s1grey"
+    },
+    {
+        "name": "S1 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s1red"
+    },
+    {
+        "name": "S1 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s1green"
+    },
+    {
+        "name": "S1 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s1blue"
+    },
+    {
+        "name": "S2 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s2grey"
+    },
+    {
+        "name": "S2 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s2red"
+    },
+    {
+        "name": "S2 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s2green"
+    },
+    {
+        "name": "S2 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s2blue"
+    },
+    {
+        "name": "S3 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s3grey"
+    },
+    {
+        "name": "S3 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s3red"
+    },
+    {
+        "name": "S3 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s3green"
+    },
+    {
+        "name": "S3 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s3blue"
+    },
+    {
+        "name": "S4 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s4grey"
+    },
+    {
+        "name": "S4 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s4red"
+    },
+    {
+        "name": "S4 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s4green"
+    },
+    {
+        "name": "S4 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s4blue"
+    },
+    {
+        "name": "S5 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s5grey"
+    },
+    {
+        "name": "S5 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s5red"
+    },
+    {
+        "name": "S5 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s5green"
+    },
+    {
+        "name": "S5 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s5blue"
+    },
+    {
+        "name": "S6 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s6grey"
+    },
+    {
+        "name": "S6 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s6red"
+    },
+    {
+        "name": "S6 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s6green"
+    },
+    {
+        "name": "S6 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "s6blue"
+    },
+    {
+        "name": "E1 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e1grey"
+    },
+    {
+        "name": "E1 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e1red"
+    },
+    {
+        "name": "E1 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e1green"
+    },
+    {
+        "name": "E1 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e1blue"
+    },
+    {
+        "name": "E2 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e2grey"
+    },
+    {
+        "name": "E2 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e2red"
+    },
+    {
+        "name": "E2 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e2green"
+    },
+    {
+        "name": "E2 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e2blue"
+    },
+    {
+        "name": "E3 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e3grey"
+    },
+    {
+        "name": "E3 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e3red"
+    },
+    {
+        "name": "E3 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e3green"
+    },
+    {
+        "name": "E3 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e3blue"
+    },
+    {
+        "name": "E4 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e4grey"
+    },
+    {
+        "name": "E4 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e4red"
+    },
+    {
+        "name": "E4 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e4green"
+    },
+    {
+        "name": "E4 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e4blue"
+    },
+    {
+        "name": "E5 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e5grey"
+    },
+    {
+        "name": "E5 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e5red"
+    },
+    {
+        "name": "E5 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e5green"
+    },
+    {
+        "name": "E5 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e5blue"
+    },
+    {
+        "name": "E6 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e6grey"
+    },
+    {
+        "name": "E6 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e6red"
+    },
+    {
+        "name": "E6 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e6green"
+    },
+    {
+        "name": "E6 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e6blue"
+    },
+    {
+        "name": "E7 Grey Key",
+        "type": "toggle",
+        "img": "images/items/greykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e7grey"
+    },
+    {
+        "name": "E7 Red Key",
+        "type": "toggle",
+        "img": "images/items/redkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e7red"
+    },
+    {
+        "name": "E7 Green Key",
+        "type": "toggle",
+        "img": "images/items/greenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e7green"
+    },
+    {
+        "name": "E7 Blue Key",
+        "type": "toggle",
+        "img": "images/items/bluekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "e7blue"
+    },
+    {
+        "name": "N1 Label",
+        "type": "static",
+        "img": "images/labels/n1.png",
+        "codes": "n1"
+    },
+    {
+        "name": "N2 Label",
+        "type": "static",
+        "img": "images/labels/n2.png",
+        "codes": "n2"
+    },
+    {
+        "name": "N3 Label",
+        "type": "static",
+        "img": "images/labels/n3.png",
+        "codes": "n3"
+    },
+    {
+        "name": "N4 Label",
+        "type": "static",
+        "img": "images/labels/n4.png",
+        "codes": "n4"
+    },
+    {
+        "name": "N5 Label",
+        "type": "static",
+        "img": "images/labels/n5.png",
+        "codes": "n5"
+    },
+    {
+        "name": "N6 Label",
+        "type": "static",
+        "img": "images/labels/n6.png",
+        "codes": "n6"
+    },
+    {
+        "name": "W1 Label",
+        "type": "static",
+        "img": "images/labels/w1.png",
+        "codes": "w1"
+    },
+    {
+        "name": "W2 Label",
+        "type": "static",
+        "img": "images/labels/w2.png",
+        "codes": "w2"
+    },
+    {
+        "name": "W3 Label",
+        "type": "static",
+        "img": "images/labels/w3.png",
+        "codes": "w3"
+    },
+    {
+        "name": "W4 Label",
+        "type": "static",
+        "img": "images/labels/w4.png",
+        "codes": "w4"
+    },
+    {
+        "name": "W5 Label",
+        "type": "static",
+        "img": "images/labels/w5.png",
+        "codes": "w5"
+    },
+    {
+        "name": "W6 Label",
+        "type": "static",
+        "img": "images/labels/w6.png",
+        "codes": "w6"
+    },
+    {
+        "name": "S1 Label",
+        "type": "static",
+        "img": "images/labels/s1.png",
+        "codes": "s1"
+    },
+    {
+        "name": "S2 Label",
+        "type": "static",
+        "img": "images/labels/s2.png",
+        "codes": "s2"
+    },
+    {
+        "name": "S3 Label",
+        "type": "static",
+        "img": "images/labels/s3.png",
+        "codes": "s3"
+    },
+    {
+        "name": "S4 Label",
+        "type": "static",
+        "img": "images/labels/s4.png",
+        "codes": "s4"
+    },
+    {
+        "name": "S5 Label",
+        "type": "static",
+        "img": "images/labels/s5.png",
+        "codes": "s5"
+    },
+    {
+        "name": "S6 Label",
+        "type": "static",
+        "img": "images/labels/s6.png",
+        "codes": "s6"
+    },
+    {
+        "name": "E1 Label",
+        "type": "static",
+        "img": "images/labels/e1.png",
+        "codes": "e1"
+    },
+    {
+        "name": "E2 Label",
+        "type": "static",
+        "img": "images/labels/e2.png",
+        "codes": "e2"
+    },
+    {
+        "name": "E3 Label",
+        "type": "static",
+        "img": "images/labels/e3.png",
+        "codes": "e3"
+    },
+    {
+        "name": "E4 Label",
+        "type": "static",
+        "img": "images/labels/e4.png",
+        "codes": "e4"
+    },
+    {
+        "name": "E5 Label",
+        "type": "static",
+        "img": "images/labels/e5.png",
+        "codes": "e5"
+    },
+    {
+        "name": "E6 Label",
+        "type": "static",
+        "img": "images/labels/e6.png",
+        "codes": "e6"
+    },
+    {
+        "name": "E7 Label",
+        "type": "static",
+        "img": "images/labels/e7.png",
+        "codes": "e7"
     }
 ]

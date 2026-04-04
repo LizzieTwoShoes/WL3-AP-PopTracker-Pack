@@ -5,14 +5,20 @@
     "package_uid": "wario land 3_ap",
     "author": "builder_script",
     "variants": {
-        "Map Tracker": {
+        "defaultmap": {
             "display_name": "Map Tracker",
             "flags": [
                 "ap"
             ]
         },
-        "Items Only": {
+        "var_itemsonly": {
             "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_keysanity": {
+            "display_name": "Keysanity",
             "flags": [
                 "ap"
             ]
