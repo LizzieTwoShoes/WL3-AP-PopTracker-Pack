@@ -386,7 +386,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["statue,n5green"],
+                        "access_rules": ["[statue],n5green"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -451,7 +451,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["spikedhelmet,overalls,flippers"],
+                        "access_rules": ["spikedhelmet,overalls,flippers,n6grey"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -459,7 +459,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["overalls,flippers,scepter"],
+                        "access_rules": ["overalls,flippers,scepter,n6red"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -467,7 +467,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["overalls_stage2"],
+                        "access_rules": ["overalls_stage2,n6green"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -475,7 +475,7 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["highjumpboots,overalls_stage2,nightvisionscope"],
+                        "access_rules": ["highjumpboots,overalls_stage2,nightvisionscope,n6blue"],
                         "visibility_rules": [],
                         "item_count": 1
                     },

@@ -383,7 +383,7 @@
                         "name": "Red Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
-                        "access_rules": ["highjumpboots"],
+                        "access_rules": ["[highjumpboots]"],
                         "visibility_rules": [],
                         "item_count": 1
                     },

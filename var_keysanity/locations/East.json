@@ -221,7 +221,7 @@
                         "name": "Red Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
-                        "access_rules": ["grab,sunmedalliontop,sunmedallionbottom,overalls_stage2","grab,sunmedallionbottom,sunmedalliontop,highjumpboots","grab_stage2,overalls_stage2","grab_stage2,highjumpboots"],
+                        "access_rules": ["grab,sunmedalliontop,sunmedallionbottom,overalls_stage2","grab,sunmedallionbottom,sunmedalliontop,highjumpboots","[grab_stage2],overalls_stage2","[grab_stage2],highjumpboots"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -456,7 +456,7 @@
                         "name": "Grey Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greykey_small.png",
-                        "access_rules": ["grab,overalls_stage2"],
+                        "access_rules": ["grab,[overalls_stage2]"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
