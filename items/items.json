@@ -1666,151 +1666,151 @@
         "codes": "e7blue"
     },
     {
-        "name": "N1 Label",
+        "name": "N1 Out of the Woods",
         "type": "static",
         "img": "images/labels/n1.png",
         "codes": "n1"
     },
     {
-        "name": "N2 Label",
+        "name": "N2 The Peaceful Village",
         "type": "static",
         "img": "images/labels/n2.png",
         "codes": "n2"
     },
     {
-        "name": "N3 Label",
+        "name": "N3 The Vast Plain",
         "type": "static",
         "img": "images/labels/n3.png",
         "codes": "n3"
     },
     {
-        "name": "N4 Label",
+        "name": "N4 Bank of the Wild River",
         "type": "static",
         "img": "images/labels/n4.png",
         "codes": "n4"
     },
     {
-        "name": "N5 Label",
+        "name": "N5 The Tidal Coast",
         "type": "static",
         "img": "images/labels/n5.png",
         "codes": "n5"
     },
     {
-        "name": "N6 Label",
+        "name": "N6 Sea Turtle Rock",
         "type": "static",
         "img": "images/labels/n6.png",
         "codes": "n6"
     },
     {
-        "name": "W1 Label",
+        "name": "W1 Desert Ruins",
         "type": "static",
         "img": "images/labels/w1.png",
         "codes": "w1"
     },
     {
-        "name": "W2 Label",
+        "name": "W2 The Volcano's Base",
         "type": "static",
         "img": "images/labels/w2.png",
         "codes": "w2"
     },
     {
-        "name": "W3 Label",
+        "name": "W3 The Pool of Rain",
         "type": "static",
         "img": "images/labels/w3.png",
         "codes": "w3"
     },
     {
-        "name": "W4 Label",
+        "name": "W4 A Town in Chaos",
         "type": "static",
         "img": "images/labels/w4.png",
         "codes": "w4"
     },
     {
-        "name": "W5 Label",
+        "name": "W5 Beneath the Waves",
         "type": "static",
         "img": "images/labels/w5.png",
         "codes": "w5"
     },
     {
-        "name": "W6 Label",
+        "name": "W6 The West Crater",
         "type": "static",
         "img": "images/labels/w6.png",
         "codes": "w6"
     },
     {
-        "name": "S1 Label",
+        "name": "S1 The Grasslands",
         "type": "static",
         "img": "images/labels/s1.png",
         "codes": "s1"
     },
     {
-        "name": "S2 Label",
+        "name": "S2 The Big Bridge",
         "type": "static",
         "img": "images/labels/s2.png",
         "codes": "s2"
     },
     {
-        "name": "S3 Label",
+        "name": "S3 Tower of Revival",
         "type": "static",
         "img": "images/labels/s3.png",
         "codes": "s3"
     },
     {
-        "name": "S4 Label",
+        "name": "S4 The Steep Canyon",
         "type": "static",
         "img": "images/labels/s4.png",
         "codes": "s4"
     },
     {
-        "name": "S5 Label",
+        "name": "S5 Cave of Flames",
         "type": "static",
         "img": "images/labels/s5.png",
         "codes": "s5"
     },
     {
-        "name": "S6 Label",
+        "name": "S6 Above the Clouds",
         "type": "static",
         "img": "images/labels/s6.png",
         "codes": "s6"
     },
     {
-        "name": "E1 Label",
+        "name": "E1 The Stagnant Swamp",
         "type": "static",
         "img": "images/labels/e1.png",
         "codes": "e1"
     },
     {
-        "name": "E2 Label",
+        "name": "E2 The Frigid Sea",
         "type": "static",
         "img": "images/labels/e2.png",
         "codes": "e2"
     },
     {
-        "name": "E3 Label",
+        "name": "E3 Castle of Illusions",
         "type": "static",
         "img": "images/labels/e3.png",
         "codes": "e3"
     },
     {
-        "name": "E4 Label",
+        "name": "E4 The Colossal Hole",
         "type": "static",
         "img": "images/labels/e4.png",
         "codes": "e4"
     },
     {
-        "name": "E5 Label",
+        "name": "E5 The Warped Void",
         "type": "static",
         "img": "images/labels/e5.png",
         "codes": "e5"
     },
     {
-        "name": "E6 Label",
+        "name": "E6 The East Crater",
         "type": "static",
         "img": "images/labels/e6.png",
         "codes": "e6"
     },
     {
-        "name": "E7 Label",
+        "name": "E7 Forest of Fear",
         "type": "static",
         "img": "images/labels/e7.png",
         "codes": "e7"
