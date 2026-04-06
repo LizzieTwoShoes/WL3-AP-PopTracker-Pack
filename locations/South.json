@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "The Grasslands",
+                "name": "S1 The Grasslands",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "gear1,gear2"
@@ -58,7 +58,7 @@
                 ]
             },
             {
-                "name": "The Big Bridge",
+                "name": "S2 The Big Bridge",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "yellowmusicbox"
@@ -107,7 +107,7 @@
                 ]
             },
             {
-                "name": "Tower of Revival",
+                "name": "S3 Tower of Revival",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "skullringred,skullringblue"
@@ -156,7 +156,7 @@
                 ]
             },
             {
-                "name": "The Steep Canyon",
+                "name": "S4 The Steep Canyon",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "trident,yellowbook"
@@ -205,7 +205,7 @@
                 ]
             },
             {
-                "name": "Cave of Flames",
+                "name": "S5 Cave of Flames",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "greenmusicbox"
@@ -254,7 +254,7 @@
                 ]
             },
             {
-                "name": "Above the Clouds",
+                "name": "S6 Above the Clouds",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "skykey"

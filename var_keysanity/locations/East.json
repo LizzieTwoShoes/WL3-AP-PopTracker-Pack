@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "The Stagnant Swamp",
+                "name": "E1 The Stagnant Swamp",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "ornamentalfan"
@@ -90,7 +90,7 @@
                 ]
             },
             {
-                "name": "The Frigid Sea",
+                "name": "E2 The Frigid Sea",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "bluebook,magicwand"
@@ -171,7 +171,7 @@
                 ]
             },
             {
-                "name": "Castle of Illusions",
+                "name": "E3 Castle of Illusions",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "lantern,magicalflame"
@@ -252,7 +252,7 @@
                 ]
             },
             {
-                "name": "The Colossal Hole",
+                "name": "E4 The Colossal Hole",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "tuskblue,tuskred,greenflower"
@@ -333,7 +333,7 @@
                 ]
             },
             {
-                "name": "The Warped Void",
+                "name": "E5 The Warped Void",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "warpcompact"
@@ -414,7 +414,7 @@
                 ]
             },
             {
-                "name": "The East Crater",
+                "name": "E6 The East Crater",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "treasuremap"
@@ -495,7 +495,7 @@
                 ]
             },
             {
-                "name": "Forest of Fear",
+                "name": "E7 Forest of Fear",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "torch"

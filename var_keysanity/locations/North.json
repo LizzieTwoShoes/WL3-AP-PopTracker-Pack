@@ -36,7 +36,7 @@
                 ]
             },
             {
-                "name": "Out of the Woods",
+                "name": "N1 Out of the Woods",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -117,7 +117,7 @@
                 ]
             },
             {
-                "name": "The Peaceful Village",
+                "name": "N2 The Peaceful Village",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "axe"
@@ -198,7 +198,7 @@
                 ]
             },
             {
-                "name": "The Vast Plain",
+                "name": "N3 The Vast Plain",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "axe"
@@ -279,7 +279,7 @@
                 ]
             },
             {
-                "name": "Bank of the Wild River",
+                "name": "N4 Bank of the Wild River",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "bluemusicbox"
@@ -360,7 +360,7 @@
                 ]
             },
             {
-                "name": "The Tidal Coast",
+                "name": "N5 The Tidal Coast",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "bluemusicbox"
@@ -441,7 +441,7 @@
                 ]
             },
             {
-                "name": "Sea Turtle Rocks",
+                "name": "N6 Sea Turtle Rocks",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "garlic"

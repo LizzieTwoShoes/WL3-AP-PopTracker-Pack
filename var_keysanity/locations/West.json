@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "Desert Ruins",
+                "name": "W1 Desert Ruins",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "bluetablet,greentablet"
@@ -90,7 +90,7 @@
                 ]
             },
             {
-                "name": "The Volcanos Base",
+                "name": "W2 The Volcano's Base",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "tophalfofscroll,bottomhalfofscroll"
@@ -171,7 +171,7 @@
                 ]
             },
             {
-                "name": "The Pool of Rain",
+                "name": "W3 The Pool of Rain",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "jar"
@@ -252,7 +252,7 @@
                 ]
             },
             {
-                "name": "A Town in Chaos",
+                "name": "W4 A Town in Chaos",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "jar"
@@ -333,7 +333,7 @@
                 ]
             },
             {
-                "name": "Beneath the Waves",
+                "name": "W5 Beneath the Waves",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "redmusicbox"
@@ -414,7 +414,7 @@
                 ]
             },
             {
-                "name": "The West Crater",
+                "name": "W6 The West Crater",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "tuskred,tuskblue,greenflower"
