@@ -54,7 +54,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["overalls,n1red","garlic,n1red"],
+                        "access_rules": ["overalls,n1red","[overalls],garlic,n1red"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -86,7 +86,7 @@
                         "name": "Red Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
-                        "access_rules": ["overalls","garlic"],
+                        "access_rules": ["overalls","[overalls],garlic"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
