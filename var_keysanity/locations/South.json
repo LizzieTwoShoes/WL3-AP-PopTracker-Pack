@@ -148,7 +148,7 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["flippers,overalls,grab","flippers,overalls_stage2,[overalls,grab]"],
+                        "access_rules": ["flippers,overalls,grab","flippers,overalls_stage2,[overalls],[grab]"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
