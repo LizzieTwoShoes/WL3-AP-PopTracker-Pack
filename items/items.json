@@ -1814,5 +1814,87 @@
         "type": "static",
         "img": "images/labels/e7.png",
         "codes": "e7"
+    },
+    {
+        "name": "Zombie Form",
+        "type": "toggle",
+        "img": "images/items/zombie.png",
+        "codes": "zombie"
+    },
+    {
+        "name": "Progressive Vampire",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Vampire Form",
+                "inherit_codes": true,
+                "img": "images/items/vampire.png",
+                "codes": "vampire, vampire_stage1"
+            },
+            {
+                "name": "Bat Form",
+                "inherit_codes": true,
+                "img": "images/items/bat.png",
+                "codes": "bat, vampire_stage1"
+            }
+        ]
+    },
+    {
+        "name": "Puffy Form",
+        "type": "toggle",
+        "img": "images/items/puffy.png",
+        "codes": "puffy"
+    },
+    {
+        "name": "Flat Form",
+        "type": "toggle",
+        "img": "images/items/flat.png",
+        "codes": "flat"
+    },
+    {
+        "name": "Invisible Form",
+        "type": "toggle",
+        "img": "images/items/invisible.png",
+        "codes": "invisible"
+    },
+    {
+        "name": "Fat Form",
+        "type": "toggle",
+        "img": "images/items/Fat.png",
+        "codes": "fat"
+    },
+    {
+        "name": "Ice Form",
+        "type": "toggle",
+        "img": "images/items/ice.png",
+        "codes": "ice"
+    },
+    {
+        "name": "Bouncy Form",
+        "type": "toggle",
+        "img": "images/items/bouncy.png",
+        "codes": "bouncy"
+    },
+    {
+        "name": "Yarn Form",
+        "type": "toggle",
+        "img": "images/items/yarn.png",
+        "codes": "yarn"
+    },
+    {
+        "name": "Snowman Form",
+        "type": "toggle",
+        "img": "images/items/snow.png",
+        "codes": "snowman"
+    },
+    {
+        "name": "Fire Form",
+        "type": "toggle",
+        "img": "images/items/fire.png",
+        "codes": "fire"
     }
 ]

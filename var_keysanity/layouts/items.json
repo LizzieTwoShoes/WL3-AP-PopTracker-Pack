@@ -110,6 +110,23 @@
                         ]
                     },
                     {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 54,
+                        "item_width": 54,
+                        "rows": [
+                            ["vampire"],
+                            ["zombie", "puffy"],
+                            ["flat", "invisible"],
+                            ["fat", "ice"],
+                            ["bouncy", "yarn"],
+                            ["snowman", "fire"]
+                        ]
+                    },
+                    {
                         
                         "type": "itemgrid",
                         "item_margin": "2, 2",
@@ -301,6 +318,21 @@
                                 "spikedhelmet",
                                 "dayornightspell",
                                 "magnifyingglass"
+                            ],
+                            [
+                                "zombie",
+                                "vampire",
+                                "puffy",
+                                "flat",
+                                "invisible",
+                                "fat"
+                            ],
+                            [
+                                "ice",
+                                "bouncy",
+                                "yarn",
+                                "snowman",
+                                "fire"
                             ],
                             [
                                 "torch",
