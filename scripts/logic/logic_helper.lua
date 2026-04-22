@@ -92,4 +92,28 @@ end
 -- ANY function added here and used in access rules should try to return an Accessibility Level if it is used inside 
 -- the ANY() and ALL() functions
 --
---
+-- call with $FUNCTION
+
+function can_pound_cracked_blocks()
+    return ANY("fat", "snowman", "overalls")
+end
+
+function can_pound_solid_blocks()
+    return ANY("fat", "overalls_stage2")
+end
+
+function can_pound_large_solid_blocks()
+    return ANY("fat", ALL("overalls_stage2", "garlic"))
+end
+
+function can_jump_high()
+    return ANY("bat", "puffy", "bouncy", "highjumpboots")
+end
+
+function can_fly()
+    return ANY("bat", "puffy")
+end
+
+function can_shake_screen()
+    return ANY("fat, snowman, overalls_stage2")
+end

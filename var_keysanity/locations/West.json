@@ -43,7 +43,10 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["grab,overalls_stage2,w1blue","highjumpboots,[grab],overalls_stage2,w1blue"],
+                        "access_rules": [
+                                        "ANY|overalls_stage2|fat|zombie,ANY|grab,puffy,bouncy,bat,overalls,w1blue",
+                                        "highjumpboots,[grab],ANY|overalls_stage2|fat|zombie,overalls,w1blue"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -67,7 +70,7 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["spikedhelmet,overalls","[spikedhelmet],[overalls],garlic"],
+                        "access_rules": ["spikedhelmet,$can_pound_cracked_blocks","[spikedhelmet],[overalls],garlic"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -75,7 +78,7 @@
                         "name": "Blue Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
-                        "access_rules": ["overalls_stage2"],
+                        "access_rules": ["$can_pound_solid_blocks","zombie"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -108,7 +111,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["truckwheel,w2red"],
+                        "access_rules": ["truckwheel,w2red","$can_fly,w2red"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -116,7 +119,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["flute,truckwheel,w2green"],
+                        "access_rules": ["flute,truckwheel,w2green","$can_fly,w2green"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -140,7 +143,7 @@
                         "name": "Red Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
-                        "access_rules": ["truckwheel"],
+                        "access_rules": ["truckwheel","flat,[truckwheel]","bat"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -148,7 +151,7 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["truckwheel,flippers"],
+                        "access_rules": ["truckwheel,flippers","$can_fly,flippers"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -156,7 +159,7 @@
                         "name": "Blue Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
-                        "access_rules": ["footofstone,flippers_stage2","footofstonem,flippers,spikedhelmet"],
+                        "access_rules": ["footofstone,flippers_stage2","footofstone,flippers,spikedhelmet"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -181,7 +184,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["overalls,w3grey"],
+                        "access_rules": ["overalls,w3grey","$can_fly,w3grey","[overalls],bouncy,w3grey"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -213,7 +216,7 @@
                         "name": "Grey Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greykey_small.png",
-                        "access_rules": ["overalls"],
+                        "access_rules": ["overalls","$can_fly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -270,7 +273,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["spikedhelmet,w4red"],
+                        "access_rules": ["spikedhelmet,w4red","$can_fly,w4red","bouncy,w4red"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -278,7 +281,10 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["grab_stage2,overalls_stage2,highjumpboots,w4green"],
+                        "access_rules": [
+                                        "$ANY|grab_stage2|fire|zombie|ice|vampire,$ANY|overalls_stage2|fat|snowman,[highjumpboots],[grab],w4green",
+                                        "$ANY|grab_stage2|fire|zombie|ice|vampire,[grab],bouncy,w4green",
+                                        "$ANY|grab_stage2|fire|zombie|ice|vampire,$can_fly,w4green"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -310,7 +316,11 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["grab_stage2,overalls_stage2,[highjumpboots]"],
+                        "access_rules": [
+                                        "$ANY|grab_stage2|fire|zombie|ice|vampire,$ANY|overalls_stage2|snowman|fat,highjumpboots,[grab]",
+                                        "$ANY|grab_stage2|fire|zombie|ice|vampire,$can_fly,[grab]",
+                                        "$ANY|grab_stage2|fire|zombie|ice|vampire,bouncy,[grab]"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -318,7 +328,8 @@
                         "name": "Blue Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
-                        "access_rules": ["grab,electricfanpropeller"],
+                        "access_rules": [
+                                        "grab,electricfanpropeller"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -351,7 +362,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["flippers,[highjumpboots],w5red"],
+                        "access_rules": ["flippers,[$ANY|highjumpboots|puffy|bat],w5red"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -359,7 +370,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["flippers,grab,[highjumpboots],w5green"],
+                        "access_rules": ["flippers,$ANY|grab|yarn,[$ANY|highjumpboots|puffy|bat],w5green"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -367,7 +378,7 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["flippers,grab,[highjumpboots],w5blue"],
+                        "access_rules": ["flippers,$ANY|grab|fat,[$ANY|highjumpboots|puffy|bat],w5blue"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -383,7 +394,10 @@
                         "name": "Red Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
-                        "access_rules": ["flippers_stage2,[grab_stage2],[spikedhelmet]"],
+                        "access_rules": [
+                                        "flippers_stage2,[grab_stage2],[spikedhelmet]",
+                                        "[flippers_stage2],flippers,$ANY|fat|flat"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -424,7 +438,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["overalls,w6grey"],
+                        "access_rules": ["$ANY|overalls|yarn|snowman|fat,w6grey"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -432,7 +446,10 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["overalls_stage2,garlic,w6red"],
+                        "access_rules": [
+                                        "overalls_stage2,garlic,w6red",
+                                        "fat,w6red"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -440,7 +457,10 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["highjumpboots,firedrencher,w6green"],
+                        "access_rules": [
+                                        "$ANY|highjumpboots|bouncy,$ANY|firedrencher|fire|vampire|zombie,w6green",
+                                        "$ANY|puffy|bat,w6green"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -464,7 +484,7 @@
                         "name": "Red Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
-                        "access_rules": ["overalls,grab"],
+                        "access_rules": ["$ANY|overalls|yarn|snowman|fat,$ANY|grab|bat|puffy|bouncy"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -472,7 +492,10 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["highjumpboots,firedrencher"],
+                        "access_rules": [
+                                        "$ANY|highjumpboots|bouncy,$ANY|firedrencher|fire|vampire|zombie",
+                                        "$ANY|puffy|bat"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
