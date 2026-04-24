@@ -27,7 +27,9 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["$ANY|overalls|zombie,magicseeds,$key_check|s1red|@South/S1 The Grasslands/Red Key"],
+                        "access_rules": [
+                                        "$ANY|$can_pound_cracked_blocks|zombie,magicseeds,$key_check|s1red|@South/S1 The Grasslands/Red Key",
+                                        "$ANY|$can_pound_cracked_blocks|zombie,bat,[knowledge],$key_check|s1red|@South/S1 The Grasslands/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
