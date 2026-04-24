@@ -529,7 +529,10 @@
                         "name": "Blue Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
-                        "access_rules": ["scissors,$can_jump_high"],
+                        "access_rules": [
+                                        "scissors,$can_jump_high",
+                                        "$can_fly"
+                                        ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
