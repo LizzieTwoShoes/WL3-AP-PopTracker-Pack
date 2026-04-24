@@ -1896,5 +1896,123 @@
         "type": "toggle",
         "img": "images/items/fire.png",
         "codes": "fire"
+    },
+    {
+        "name": "Glitched Logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Glitchless Logic",
+                "inherit_codes": false,
+                "img": "images/settings/glitchless.png",
+                "codes": "glitchlogic, glitchless"
+            },
+            {
+                "name": "Glitched Logic",
+                "inherit_codes": false,
+                "img": "images/settings/glitched.png",
+                "codes": "glitched"
+            }
+        ]
+    },
+    {
+        "name": "Logic Difficulty",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Standard Logic",
+                "inherit_codes": true,
+                "img": "images/settings/standard.png",
+                "codes": "difficulty, standard"
+            },
+            {
+                "name": "Knowledge Checks",
+                "inherit_codes": true,
+                "img": "images/settings/knowledge.png",
+                "codes": "knowledge"
+            },
+            {
+                "name": "Hard Logic",
+                "inherit_codes": true,
+                "img": "images/settings/hard.png",
+                "codes": "hard"
+            }
+        ]
+    },
+    {
+        "name": "Key Settings",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Vanilla Keys",
+                "inherit_codes": false,
+                "img": "images/settings/vanilla.png",
+                "codes": "keysettings, vanilla"
+            },
+            {
+                "name": "Keysanity",
+                "inherit_codes": false,
+                "img": "images/settings/keysanity.png",
+                "codes": "keysanity"
+            }
+        ]
+    },
+    {
+        "name": "Goal Setting",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "overlay_align": "center",
+        "stages": [
+            {
+                "name": "Five Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/5musicboxes.png",
+                "codes": "5musicboxes,goalsetting"
+            },
+            {
+                "name": "Four Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/4musicboxes.png",
+                "codes": "4musicboxes"
+            },
+            {
+                "name": "Three Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/3musicboxes.png",
+                "codes": "3musicboxes"
+            },
+            {
+                "name": "Two Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/2musicboxes.png",
+                "codes": "2musicboxes"
+            },
+            {
+                "name": "One Music Box",
+                "inherit_codes": false,
+                "img": "images/settings/1musicbox.png",
+                "codes": "1musicbox"
+            },
+            {
+                "name": "Zero Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/0musicboxes.png",
+                "codes": "0musicboxes"
+            }
+        ]
     }
 ]

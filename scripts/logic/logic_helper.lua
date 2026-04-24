@@ -117,3 +117,27 @@ end
 function can_shake_screen()
     return ANY("fat, snowman, overalls_stage2")
 end
+
+function key_check(keyitem,keylocation)
+    return ANY(keyitem,ALL(Tracker:FindObjectForCode(keylocation).AccessibilityLevel,"vanilla"))
+end
+
+function count_music_boxes(number)
+    count = 0
+    if HAS("yellowmusicbox")==ACCESS_NORMAL then
+        count = count + 1
+    end
+    if HAS("bluemusicbox")==ACCESS_NORMAL then
+        count = count + 1
+    end
+    if HAS("greenmusicbox")==ACCESS_NORMAL then
+        count = count + 1
+    end
+    if HAS("redmusicbox")==ACCESS_NORMAL then
+        count = count + 1
+    end
+    if HAS("goldmusicbox")==ACCESS_NORMAL then
+        count = count + 1
+    end
+    return bool_to_accesslvl[count >= number]
+end

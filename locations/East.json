@@ -19,7 +19,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": [],
+                        "access_rules": ["$key_check|e1grey|@East/E1 The Stagnant Swamp/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -27,7 +27,10 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["footofstone,overalls"],
+                        "access_rules": [
+                                        "footofstone,$ANY|overalls|bat,$key_check|e1red|@East/E1 The Stagnant Swamp/Red Key",
+                                        "footofstone,flippers_stage2,highjumpboots,$key_check|e1red|@East/E1 The Stagnant Swamp/Red Key"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -35,7 +38,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["footofstone,highjumpboots,grab"],
+                        "access_rules": ["footofstone,$can_jump_high,$key_check|e1green|@East/E1 The Stagnant Swamp/Green Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -43,8 +46,43 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["explosiveplungerbox"],
+                        "access_rules": ["$ANY|explosiveplungerbox|$can_fly,$key_check|e1blue|@East/E1 The Stagnant Swamp/Blue Key"],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["footofstone"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": [
+                                        "footofstone,highjumpboots,grab",
+                                        "footofstone,ANY|$can_fly|bouncy"
+                                        ],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["$ANY|explosiveplungerbox|$can_fly"],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
@@ -68,7 +106,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": [],
+                        "access_rules": ["$key_check|e2grey|@East/E2 The Frigid Sea/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -76,7 +114,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["grab"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e1red|@East/E2 The Frigid Sea/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -84,7 +122,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["scepter,flippers"],
+                        "access_rules": ["scepter,flippers,$key_check|e2green|@East/E2 The Frigid Sea/Green Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -92,8 +130,49 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["flippers_stage2","sunmedallionbottom,sunmedalliontop"],
+                        "access_rules": [
+                                        "flippers_stage2,$key_check|e2blue|@East/E2 The Frigid Sea/Blue Key",
+                                        "sunmedallionbottom,sunmedalliontop,$key_check|e2blue|@East/E2 The Frigid Sea/Blue Key"
+                                        ],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": [
+                                        "$ANY|grab|$can_fly",
+                                        "bouncy,[hard]"
+                                        ],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["scepter,flippers"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": [
+                                        "flippers_stage2",
+                                        "sunmedallionbottom,sunmedalliontop"
+                                        ],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
@@ -107,7 +186,7 @@
                 ]
             },
             {
-                "name": "E3 Castle of Illusions",
+                "name": "E3 Castle of Illusion",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "lantern,magicalflame"
@@ -117,7 +196,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["overalls,grab"],
+                        "access_rules": ["[$ANY|$can_pound_cracked_blocks|glitched],$key_check|e3grey|@East/E3 Castle of Illusion/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -125,7 +204,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["grab,sunmedalliontop,sunmedallionbottom,overalls_stage2","grab,sunmedallionbottom,sunmedalliontop,highjumpboots","grab_stage2,overalls_stage2","grab_stage2,highjumpboots"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3red|@East/E3 Castle of Illusion/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -133,7 +212,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["grab_stage2"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3green|@East/E3 Castle of Illusion/Green Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -141,8 +220,48 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["castlebrick,grab"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3blue|@East/E3 Castle of Illusion/Blue Key"],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": ["$ANY|grab|can_fly"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": [
+                                        "[knowledge],grab,sunmedalliontop,sunmedallionbottom,$ANY|$can_shake_screen|highjumpboots",
+                                        "grab_stage2,$ANY|$can_shake_screen|highjumpboots",
+                                        "[glitched],$ANY|$can_shake_screen|highjumpboots",
+                                        "$ANY|$can_fly|bouncy"
+                                        ],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["$ANY|grab_stage2|$can_fly|bouncy"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": [
+                                        "castlebrick,$ANY|grab|$can_fly,$can_pound_cracked_blocks",
+                                        "[knowledge],bat,$can_pound_cracked_blocks"
+                                        ],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
@@ -166,7 +285,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": [],
+                        "access_rules": ["$key_check|e4grey|@East/E4 The Colossal Hole/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -174,7 +293,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["garlic,grab"],
+                        "access_rules": ["garlic,$key_check|e4red|@East/E4 The Colossal Hole/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -182,7 +301,10 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["highjumpboots","sunmedallionbottom,sunmedalliontop"],
+                        "access_rules": [
+                                        "$can_jump_high,$key_check|e4green|@East/E4 The Colossal Hole/Green Key",
+                                        "sunmedallionbottom,sunmedalliontop,$key_check|e4green|@East/E4 The Colossal Hole/Green Key"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -190,8 +312,40 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["explosiveplungerbox,highjumpboots"],
+                        "access_rules": ["explosiveplungerbox,$can_jump_high,$key_check|e4blue|@East/E4 The Colossal Hole/Blue Key"],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["garlic,$ANY|grab|zombie"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["$can_jump_high","sunmedallionbottom,sunmedalliontop"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["explosiveplungerbox,$can_jump_high"],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
@@ -215,7 +369,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["grab"],
+                        "access_rules": ["$key_check|e5grey|@East/E5 The Warped Void/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -223,7 +377,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["warpremovalapparatus"],
+                        "access_rules": ["warpremovalapparatus,$key_check|e5red|@East/E5 The Warped Void/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -231,7 +385,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["grab,warpremovalapparatus"],
+                        "access_rules": ["$ANY|grab|$can_fly,warpremovalapparatus,$key_check|e5green|@East/E5 The Warped Void/Green Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -239,8 +393,43 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["keycardred,keycardblue,grab"],
+                        "access_rules": [
+                                        "keycardred,keycardblue,grab,$key_check|e5blue|@East/E5 The Warped Void/Blue Key",
+                                        "warpremovalapparatus,$can_fly,$key_check|e5blue|@East/E5 The Warped Void/Blue Key"
+                                        ],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": ["warpremovalapparatus"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["$ANY|bouncy|grab|$can_fly,warpremovalapparatus"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["keycardred,keycardblue,grab","warpremovalapparatus,$can_fly"],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
@@ -264,7 +453,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["grab,overalls_stage2"],
+                        "access_rules": ["$ANY|zombie|grab,$key_check|e6grey|@East/E6 The East Crater/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -272,7 +461,10 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["grab,firedrencher"],
+                        "access_rules": [
+                                        "overalls,grab,$ANY|firedrencher|zombie|fire|vampire,[$ANY|zombie|grab|glitched],$key_check|e6red|@East/E6 The East Crater/Red Key",
+                                        "fire,$ANY|firedrencher|zombie|fire|vampire,[$ANY|zombie|grab|glitched],$key_check|e6red|@East/E6 The East Crater/Red Key"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -280,7 +472,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["grab,jackhammer"],
+                        "access_rules": ["grab,$ANY|jackhammer|$can_fly,$key_check|e6green|@East/E6 The East Crater/Green Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -288,8 +480,43 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["grab,highjumpboots,pickaxe"],
+                        "access_rules": ["grab,[$ANY|$can_jump_high|knowledge],pickaxe,$key_check|e6blue|@East/E6 The East Crater/Blue Key"],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": ["$ANY|zombie|grab,[$ANY|$can_shake_screen|$can_fly|hard]"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": [
+                                        "grab,$ANY|fire|zombie|vampire|firedrencher,$can_pound_cracked_blocks",
+                                        "zombie,$ANY|fire|zombie|vampire|firedrencher"    
+                                        ],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["grab,$ANY|puffy|bat|jackhammer"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": ["grab,pickaxe,[$ANY|$can_jump_high|knowledge]"],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
@@ -313,7 +540,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": [],
+                        "access_rules": ["$key_check|e7grey|@East/E7 Forest of Fear/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -321,7 +548,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["grab_stage2,highjumpboots,mysteryhandle"],
+                        "access_rules": ["grab_stage2,mysteryhandle,$key_check|e7red|@East/E7 Forest of Fear/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -329,7 +556,9 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["grab,mysteryhandle"],
+                        "access_rules": [
+                                        "$ANY|bouncy|grab|$can_fly,mysteryhandle,$key_check|e7green|@East/E7 Forest of Fear/Green Key"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -337,8 +566,48 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["demonsblood"],
+                        "access_rules": [
+                                        "$ANY|zombie|demonsblood,$key_check|e7blue|@East/E7 Forest of Fear/Blue Key"
+                                        ],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greykey_small.png",
+                        "access_rules": [],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/redkey_small.png",
+                        "access_rules": [
+                                        "grab_stage2,highjumpboots,mysteryhandle",
+                                        "$ANY|bouncy|bat|puffy,mysteryhandle"
+                                        ],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/greenkey_small.png",
+                        "access_rules": ["grab,mysteryhandle"],
+                        "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Key",
+                        "chest_unopened_img": "/images/chests/nokey_small.png",
+                        "chest_opened_img": "/images/chests/bluekey_small.png",
+                        "access_rules": [
+                                        "demonsblood",
+                                        "zombie"
+                                        ],
+                        "visibility_rules": ["keysanity"],
                         "item_count": 1
                     }
                 ],
