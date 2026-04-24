@@ -37,7 +37,7 @@
         "img": "images/items/goldmusicbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "goldmusicbox"
+        "codes": "goldmusicbox,musicbox"
     },
     {
         "name": "Red Chemical",
@@ -449,7 +449,7 @@
         "img": "images/items/bluemusicbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bluemusicbox"
+        "codes": "bluemusicbox,musicbox"
     },
     {
         "name": "Red Music Box",
@@ -457,7 +457,7 @@
         "img": "images/items/redmusicbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "redmusicbox"
+        "codes": "redmusicbox,musicbox"
     },
     {
         "name": "Grab",
@@ -503,7 +503,7 @@
         "img": "images/items/greenmusicbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "greenmusicbox"
+        "codes": "greenmusicbox,musicbox"
     },
     {
         "name": "Tusk Blue",
@@ -647,7 +647,7 @@
         "img": "images/items/yellowmusicbox.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "yellowmusicbox"
+        "codes": "yellowmusicbox,musicbox"
     },
     {
         "name": "Scepter",
@@ -1974,32 +1974,14 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 5,
         "overlay_align": "center",
         "stages": [
             {
-                "name": "Five Music Boxes",
+                "name": "Zero Music Boxes",
                 "inherit_codes": false,
-                "img": "images/settings/5musicboxes.png",
-                "codes": "5musicboxes,goalsetting"
-            },
-            {
-                "name": "Four Music Boxes",
-                "inherit_codes": false,
-                "img": "images/settings/4musicboxes.png",
-                "codes": "4musicboxes"
-            },
-            {
-                "name": "Three Music Boxes",
-                "inherit_codes": false,
-                "img": "images/settings/3musicboxes.png",
-                "codes": "3musicboxes"
-            },
-            {
-                "name": "Two Music Boxes",
-                "inherit_codes": false,
-                "img": "images/settings/2musicboxes.png",
-                "codes": "2musicboxes"
+                "img": "images/settings/0musicboxes.png",
+                "codes": "0musicboxes"
             },
             {
                 "name": "One Music Box",
@@ -2008,10 +1990,28 @@
                 "codes": "1musicbox"
             },
             {
-                "name": "Zero Music Boxes",
+                "name": "Two Music Boxes",
                 "inherit_codes": false,
-                "img": "images/settings/0musicboxes.png",
-                "codes": "0musicboxes"
+                "img": "images/settings/2musicboxes.png",
+                "codes": "2musicboxes"
+            },
+            {
+                "name": "Three Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/3musicboxes.png",
+                "codes": "3musicboxes"
+            },
+            {
+                "name": "Four Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/4musicboxes.png",
+                "codes": "4musicboxes"
+            },
+            {
+                "name": "Five Music Boxes",
+                "inherit_codes": false,
+                "img": "images/settings/5musicboxes.png",
+                "codes": "5musicboxes,goalsetting"
             }
         ]
     }

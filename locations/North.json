@@ -12,14 +12,7 @@
                 "name": "The Temple",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5musicboxes,$count_music_boxes|5",
-                    "4musicboxes,$count_music_boxes|4",
-                    "3musicboxes,$count_music_boxes|3",
-                    "2musicboxes,$count_music_boxes|2",
-                    "1musicbox,$count_music_boxes|1",
-                    "0musicboxes",
-
-                    "yellowmusicbox,bluemusicbox,greenmusicbox,redmusicbox,goldmusicbox"
+                    "^$count_music_boxes"
                 ],
                 "sections": [
                     {

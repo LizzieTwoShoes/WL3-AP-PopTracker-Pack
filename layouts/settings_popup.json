@@ -22,6 +22,12 @@
                         "type": "item",
                         "margin": "5,1,5,5",
                         "item": "keysettings"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "5,1,5,5",
+                        "h_alignment": "center",
+                        "item": "goalsetting"
                     }
                 ]
             }
