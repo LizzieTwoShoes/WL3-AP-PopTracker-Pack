@@ -186,7 +186,7 @@
                 ]
             },
             {
-                "name": "E3 Castle of Illusion",
+                "name": "E3 Castle of Illusions",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "lantern,magicalflame"
@@ -196,7 +196,7 @@
                         "name": "Grey Chest",
                         "chest_unopened_img": "/images/chests/grey_closed.png",
                         "chest_opened_img": "/images/chests/grey_open.png",
-                        "access_rules": ["[$ANY|$can_pound_cracked_blocks|glitched],$key_check|e3grey|@East/E3 Castle of Illusion/Grey Key"],
+                        "access_rules": ["[$ANY|$can_pound_cracked_blocks|glitched],$key_check|e3grey|@East/E3 Castle of Illusions/Grey Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -204,7 +204,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3red|@East/E3 Castle of Illusion/Red Key"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3red|@East/E3 Castle of Illusions/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -212,7 +212,7 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3green|@East/E3 Castle of Illusion/Green Key"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3green|@East/E3 Castle of Illusions/Green Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -220,7 +220,7 @@
                         "name": "Blue Chest",
                         "chest_unopened_img": "/images/chests/blue_closed.png",
                         "chest_opened_img": "/images/chests/blue_open.png",
-                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3blue|@East/E3 Castle of Illusion/Blue Key"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e3blue|@East/E3 Castle of Illusions/Blue Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
