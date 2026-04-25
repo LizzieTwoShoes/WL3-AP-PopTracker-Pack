@@ -118,7 +118,7 @@
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
                         "access_rules": [
-                                        "flippers,$ANY|$can_pound_cracked_blocks|zombie,$key_check|s1red|@South/S2 The Big Bridge/Red Key"
+                                        "flippers,$ANY|$can_pound_cracked_blocks|zombie,$key_check|s2red|@South/S2 The Big Bridge/Red Key"
                                         ],
                         "visibility_rules": [],
                         "item_count": 1

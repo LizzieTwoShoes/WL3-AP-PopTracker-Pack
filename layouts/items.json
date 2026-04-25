@@ -402,12 +402,8 @@
                         "item_height": 54,
                         "item_width": 54,
                         "rows": [
-                            ["vampire"],
-                            ["zombie", "puffy"],
-                            ["flat", "invisible"],
-                            ["fat", "ice"],
-                            ["bouncy", "yarn"],
-                            ["snowman", "fire"]
+                            ["vampire","zombie","puffy","flat","invisible"],
+                            ["fat","ice","bouncy","yarn","snowman","fire"]
                         ]
                     },
                     {

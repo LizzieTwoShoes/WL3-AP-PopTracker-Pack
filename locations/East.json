@@ -114,7 +114,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e1red|@East/E2 The Frigid Sea/Red Key"],
+                        "access_rules": ["$ANY|grab|$can_fly,$key_check|e2red|@East/E2 The Frigid Sea/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
