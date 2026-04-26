@@ -2,6 +2,8 @@
 
 To install, just place the latest release zip in the "packs" folder in your PopTracker installation.
 
-## Current Issues
+## Credits
 
-The goal (defeating Rudy) is currently hardcoded to require all 5 music boxes. If the yaml you used to generate your seed requires less, the tracker square for The Temple will not be accurate.
+This pack was developed with the help of Stripes007's [Poptracker Pack Builder](https://github.com/StripesOO7/poptracker-pack-builder).
+
+Treasure sprites were ripped by ShyGuyXXL
