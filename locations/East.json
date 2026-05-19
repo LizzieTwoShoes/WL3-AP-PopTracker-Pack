@@ -29,7 +29,8 @@
                         "chest_opened_img": "/images/chests/red_open.png",
                         "access_rules": [
                                         "footofstone,$ANY|overalls|bat,$key_check|e1red|@East/E1 The Stagnant Swamp/Red Key",
-                                        "footofstone,flippers_stage2,highjumpboots,$key_check|e1red|@East/E1 The Stagnant Swamp/Red Key"
+                                        "footofstone,flippers_stage2,highjumpboots,$key_check|e1red|@East/E1 The Stagnant Swamp/Red Key",
+                                        "footofstone,[easyglitches],flat,puffy,$key_check|e1red|@East/E1 The Stagnant Swamp/Red Key"
                                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -72,7 +73,7 @@
                         "chest_opened_img": "/images/chests/greenkey_small.png",
                         "access_rules": [
                                         "footofstone,highjumpboots,grab",
-                                        "footofstone,ANY|$can_fly|bouncy"
+                                        "footofstone,$can_bounce"
                                         ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
@@ -81,8 +82,75 @@
                         "name": "Blue Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
-                        "access_rules": ["$ANY|explosiveplungerbox|$can_fly"],
+                        "access_rules": ["$ANY|explosiveplungerbox|$can_bounce"],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["footofstone,highjumpboots"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["footofstone"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["footofstone,$can_jump_high"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["spikedhelmet"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["explosiveplungerbox"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "footofstone,$can_bounce",
+                                        "footofstone,highjumpboots,grab"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
@@ -122,7 +190,10 @@
                         "name": "Green Chest",
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
-                        "access_rules": ["scepter,flippers,$key_check|e2green|@East/E2 The Frigid Sea/Green Key"],
+                        "access_rules": [
+                                        "scepter,flippers,$key_check|e2green|@East/E2 The Frigid Sea/Green Key",
+                                        "scepter,[easyglitches],flat,$key_check|e2green|@East/E2 The Frigid Sea/Green Key"
+                                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -132,7 +203,8 @@
                         "chest_opened_img": "/images/chests/blue_open.png",
                         "access_rules": [
                                         "flippers_stage2,$key_check|e2blue|@East/E2 The Frigid Sea/Blue Key",
-                                        "sunmedallionbottom,sunmedalliontop,$key_check|e2blue|@East/E2 The Frigid Sea/Blue Key"
+                                        "sunmedallionbottom,sunmedalliontop,$key_check|e2blue|@East/E2 The Frigid Sea/Blue Key",
+                                        "[easyglitches],flat,$key_check|e2blue|@East/E2 The Frigid Sea/Blue Key"
                                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -160,7 +232,10 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["scepter,flippers"],
+                        "access_rules": [
+                                        "scepter,flippers",
+                                        "scepter,[easyglitches],flat"
+                                        ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
                     },
@@ -170,9 +245,94 @@
                         "chest_opened_img": "/images/chests/bluekey_small.png",
                         "access_rules": [
                                         "flippers_stage2",
-                                        "sunmedallionbottom,sunmedalliontop"
+                                        "sunmedallionbottom,sunmedalliontop",
+                                        "[easyglitches],flat"
                                         ],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$can_jump_high"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "flippers_stage2",
+                                        "[easyglitches],flat",
+                                        "sunmedallionbottom,sunmedalliontop"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$ANY|grab|$can_fly"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "$ANY|grab|$can_fly",
+                                        "bouncy,[hard]"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "scepter,flippers",
+                                        "scepter,[easyglitches],flat"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "scepter,flippers,spikedhelmet,highjumpboots",
+                                        "scepter,[easyglitches],flat,spikedhelmet,highjumpboots"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "scepter,flippers",
+                                        "scepter,[easyglitches],flat"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "flippers_stage2",
+                                        "[easyglitches],flat",
+                                        "sunmedallionbottom,sunmedalliontop"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
@@ -240,7 +400,7 @@
                                         "[knowledge],grab,sunmedalliontop,sunmedallionbottom,$ANY|$can_shake_screen|highjumpboots",
                                         "grab_stage2,$ANY|$can_shake_screen|highjumpboots",
                                         "[glitched],$ANY|$can_shake_screen|highjumpboots",
-                                        "$ANY|$can_fly|bouncy"
+                                        "$can_bounce"
                                         ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
@@ -249,7 +409,7 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["$ANY|grab_stage2|$can_fly|bouncy"],
+                        "access_rules": ["$ANY|grab_stage2|$can_bounce"],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
                     },
@@ -259,9 +419,91 @@
                         "chest_opened_img": "/images/chests/bluekey_small.png",
                         "access_rules": [
                                         "castlebrick,$ANY|grab|$can_fly,$can_pound_cracked_blocks",
+                                        "castlebrick,zombie,$can_pound_cracked_blocks,[knowledge]",
                                         "[knowledge],bat,$can_pound_cracked_blocks"
                                         ],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "grab_stage2,highjumpboots",
+                                        "[knowledge],grab,sunmedallionbottom,sunmedalliontop,highjumpboots",
+                                        "$can_bounce"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "grab_stage2,$ANY|highjumpboots|$can_shake_screen",
+                                        "[knowledge],grab,sunmedallionbottom,sunmedalliontop,$ANY|highjumpboots|$can_shake_screen",
+                                        "$can_bounce"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "grab_stage2,highjumpboots",
+                                        "$can_bounce"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$ANY|grab_stage2|$can_bounce"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "castlebrick,$ANY|grab|$can_fly",
+                                        "[knowledge],bat,$ANY|grab|$can_fly|zombie"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "castlebrick,$ANY|grab|$can_fly",
+                                        "[knowledge],bat,$ANY|grab|$can_fly|zombie"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$ANY|grab_stage2|$can_bounce"],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
@@ -336,7 +578,10 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["$can_jump_high","sunmedallionbottom,sunmedalliontop"],
+                        "access_rules": [
+                                        "$can_jump_high",
+                                        "sunmedallionbottom,sunmedalliontop"
+                                        ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
                     },
@@ -346,6 +591,79 @@
                         "chest_opened_img": "/images/chests/bluekey_small.png",
                         "access_rules": ["explosiveplungerbox,$can_jump_high"],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "$can_jump_high",
+                                        "sunmedallionbottom,sunmedalliontop"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "$can_jump_high,grab",
+                                        "sunmedallionbottom,sunmedalliontop,grab"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["explosiveplungerbox,$can_jump_high"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "garlic,spikedhelmet,$can_jump_high",
+                                        "garlic,$can_fly"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
@@ -420,7 +738,7 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["$ANY|bouncy|grab|$can_fly,warpremovalapparatus"],
+                        "access_rules": ["$ANY|grab|$can_bounce,warpremovalapparatus"],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
                     },
@@ -430,6 +748,76 @@
                         "chest_opened_img": "/images/chests/bluekey_small.png",
                         "access_rules": ["keycardred,keycardblue,grab","warpremovalapparatus,$can_fly"],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["keycardred,keycardblue,grab","warpremovalapparatus,$can_fly"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$ANY|grab|$can_bounce"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["warpremovalapparatus,$ANY|grab|$can_fly"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["warpremovalapparatus"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["warpremovalapparatus"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "keycardblue,keycardred,grab,highjumpboots,spikedhelmet",
+                                        "warpremovalapparatus,$can_fly"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "keycardblue,keycardred,grab,highjumpboots,spikedhelmet",
+                                        "warpremovalapparatus,$can_fly"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
@@ -462,9 +850,9 @@
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
                         "access_rules": [
-                                        "overalls,grab,$ANY|firedrencher|zombie|fire|vampire,[$ANY|zombie|grab|glitched],$key_check|e6red|@East/E6 The East Crater/Red Key",
-                                        "fire,$ANY|firedrencher|zombie|fire|vampire,[$ANY|zombie|grab|glitched],$key_check|e6red|@East/E6 The East Crater/Red Key"
-                                        ],
+                                        "$can_pound_cracked_blocks,[$ANY|zombie|grab|glitched],$can_pass_through_fire,[$ANY|zombie|grab|glitched],$key_check|e6red|@East/E6 The East Crater/Red Key",
+                                        "fire,[$ANY|zombie|grab|glitched],$key_check|e6red|@East/E6 The East Crater/Red Key"
+                                        ], 
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -497,8 +885,8 @@
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/redkey_small.png",
                         "access_rules": [
-                                        "grab,$ANY|fire|zombie|vampire|firedrencher,$can_pound_cracked_blocks",
-                                        "zombie,$ANY|fire|zombie|vampire|firedrencher"    
+                                        "grab,$can_pass_through_fire,$can_pound_cracked_blocks",
+                                        "zombie,$can_pass_through_fire"    
                                         ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
@@ -507,7 +895,7 @@
                         "name": "Green Key",
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/greenkey_small.png",
-                        "access_rules": ["grab,$ANY|puffy|bat|jackhammer"],
+                        "access_rules": ["grab,$ANY|$can_fly|jackhammer"],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
                     },
@@ -517,6 +905,70 @@
                         "chest_opened_img": "/images/chests/bluekey_small.png",
                         "access_rules": ["grab,pickaxe,[$ANY|$can_jump_high|knowledge]"],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["grab"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$ANY|zombie|grab"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$can_pass_through_fire,grab"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$can_pass_through_fire,$ANY|zombie|grab"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["grab,$ANY|$can_fly|jackhammer"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["pickaxe,$can_jump_high,$ANY|grab|$can_fly"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["pickaxe,grab,$can_jump_high"],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
@@ -548,7 +1000,7 @@
                         "name": "Red Chest",
                         "chest_unopened_img": "/images/chests/red_closed.png",
                         "chest_opened_img": "/images/chests/red_open.png",
-                        "access_rules": ["grab_stage2,mysteryhandle,$key_check|e7red|@East/E7 Forest of Fear/Red Key"],
+                        "access_rules": ["$ANY|grab_stage2|$can_bounce,mysteryhandle,$key_check|e7red|@East/E7 Forest of Fear/Red Key"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -557,7 +1009,7 @@
                         "chest_unopened_img": "/images/chests/green_closed.png",
                         "chest_opened_img": "/images/chests/green_open.png",
                         "access_rules": [
-                                        "$ANY|bouncy|grab|$can_fly,mysteryhandle,$key_check|e7green|@East/E7 Forest of Fear/Green Key"
+                                        "grab,mysteryhandle,$key_check|e7green|@East/E7 Forest of Fear/Green Key"
                                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -586,7 +1038,7 @@
                         "chest_opened_img": "/images/chests/redkey_small.png",
                         "access_rules": [
                                         "grab_stage2,highjumpboots,mysteryhandle",
-                                        "$ANY|bouncy|bat|puffy,mysteryhandle"
+                                        "$can_bounce,mysteryhandle"
                                         ],
                         "visibility_rules": ["keysanity"],
                         "item_count": 1
@@ -604,10 +1056,82 @@
                         "chest_unopened_img": "/images/chests/nokey_small.png",
                         "chest_opened_img": "/images/chests/bluekey_small.png",
                         "access_rules": [
-                                        "demonsblood",
-                                        "zombie"
+                                        "$ANY|demonsblood|$can_pass_spikes"
                                         ],
                         "visibility_rules": ["keysanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 1",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["$ANY|highjumpboots|$can_fly"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 2",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "mysteryhandle,grab,highjumpboots",
+                                        "mysteryhandle,puffy"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 3",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": ["mysteryhandle"],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 4",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "mysteryhandle,grab_stage2,highjumpboots",
+                                        "mysteryhandle,$can_bounce"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 5",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 6",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [
+                                        "mysteryhandle,grab_stage2,highjumpboots",
+                                        "mysteryhandle,$can_bounce"
+                                        ],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 7",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Music Coin 8",
+                        "chest_unopened_img": "/images/chests/no_music_coin.png",
+                        "chest_opened_img": "/images/chests/music_coin.png",
+                        "access_rules": [],
+                        "visibility_rules": ["coinsanity"],
                         "item_count": 1
                     }
                 ],
