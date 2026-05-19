@@ -1907,15 +1907,21 @@
         "stages": [
             {
                 "name": "Glitchless Logic",
-                "inherit_codes": false,
+                "inherit_codes": true,
                 "img": "images/settings/glitchless.png",
                 "codes": "glitchlogic, glitchless"
             },
             {
-                "name": "Glitched Logic",
-                "inherit_codes": false,
+                "name": "Easy Glitches",
+                "inherit_codes": true,
+                "img": "images/settings/easyglitches.png",
+                "codes": "easyglitches"
+            },
+            {
+                "name": "All Glitches",
+                "inherit_codes": true,
                 "img": "images/settings/glitched.png",
-                "codes": "glitched"
+                "codes": "glitched, hardglitches, glitches"
             }
         ]
     },
@@ -1934,13 +1940,13 @@
                 "codes": "difficulty, standard"
             },
             {
-                "name": "Knowledge Checks",
+                "name": "Knowledge Check Logic",
                 "inherit_codes": true,
                 "img": "images/settings/knowledge.png",
                 "codes": "knowledge"
             },
             {
-                "name": "Hard Logic",
+                "name": "Hard Trick Logic",
                 "inherit_codes": true,
                 "img": "images/settings/hard.png",
                 "codes": "hard"
@@ -1958,14 +1964,36 @@
             {
                 "name": "Vanilla Keys",
                 "inherit_codes": false,
-                "img": "images/settings/vanilla.png",
-                "codes": "keysettings, vanilla"
+                "img": "images/settings/vanillakeys.png",
+                "codes": "keysettings, vanilla, vanillakeys"
             },
             {
                 "name": "Keysanity",
                 "inherit_codes": false,
                 "img": "images/settings/keysanity.png",
                 "codes": "keysanity"
+            }
+        ]
+    },
+    {
+        "name": "Coin Settings",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "overlay_align": "right",
+        "stages": [
+            {
+                "name": "Vanilla Music Coins",
+                "inherit_codes": false,
+                "img": "images/settings/vanillacoins.png",
+                "codes": "coinsettings, vanillacoins"
+            },
+            {
+                "name": "Coinsanity",
+                "inherit_codes": false,
+                "img": "images/settings/coinsanity.png",
+                "codes": "coinsanity"
             }
         ]
     },

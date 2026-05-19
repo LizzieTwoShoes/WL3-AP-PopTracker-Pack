@@ -115,7 +115,27 @@ function can_fly()
 end
 
 function can_shake_screen()
-    return ANY("fat, snowman, overalls_stage2")
+    return ANY("fat","snowman", "overalls_stage2")
+end
+
+function can_pass_through_fire()
+    return ANY("vampire","zombie","fire","firedrencher")
+end
+
+function can_bounce()
+    return ANY("bat","puffy","bouncy")
+end
+
+function can_kill_frogs()
+    return ANY("fat","fire","vampire","zombie","ice")
+end
+
+function can_sink_in_water()
+    return ANY("fat","flat")
+end
+
+function can_pass_spikes()
+    return ANY("zombie","vampire","fire","snowman","flat")
 end
 
 function key_check(keyitem,keylocation)
