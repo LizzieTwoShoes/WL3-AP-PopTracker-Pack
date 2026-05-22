@@ -76,8 +76,8 @@ function LocationHandler(location)
             custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][full_path] = nil
         end
     end
-    -- local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
-    -- print(dump_table(storage_item.ItemState.MANUAL_LOCATIONS))
+    local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+    print(dump_table(storage_item.ItemState.MANUAL_LOCATIONS))
     ForceUpdate() -- 
 end
 
@@ -143,7 +143,7 @@ function preOnClear()
     end
 
 
-    -- print(Archipelago.Seed)
+    print(Archipelago.Seed)
     local seed_base = (Archipelago.Seed or tostring(#ALL_LOCATIONS)).."_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
     if ROOM_SEED == "default" or ROOM_SEED ~= seed_base then -- seed is default or from previous connection
 
@@ -205,7 +205,7 @@ function onClear(slot_data)
         for _, item_pair in pairs(item_array) do
             item_code = item_pair[1]
             item_type = item_pair[2]
-            -- print("on clear", item_code, item_type)
+            print("on clear", item_code, item_type)
             local item_obj = Tracker:FindObjectForCode(item_code)
             if item_obj then
                 if item_obj.Type == "toggle" then
@@ -260,7 +260,7 @@ function onItem(index, item_id, item_name, player_number)
     CUR_INDEX = index;
     local item = ITEM_MAPPING[item_id]
     if not item or not item[1] then
-        --print(string.format("onItem: could not find item mapping for id %s", item_id))
+        print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
     for _, item_pair in pairs(item) do
@@ -269,20 +269,20 @@ function onItem(index, item_id, item_name, player_number)
         local item_obj = Tracker:FindObjectForCode(item_code)
         if item_obj then
             if item_obj.Type == "toggle" then
-                -- print("toggle")
+                print("toggle")
                 item_obj.Active = true
             elseif item_obj.Type == "progressive" then
-                -- print("progressive")
+                print("progressive")
                 if item_obj.Active == true then
                     item_obj.CurrentStage = item_obj.CurrentStage + 1
                 else
                     item_obj.Active = true
                 end
             elseif item_obj.Type == "consumable" then
-                -- print("consumable")
+                print("consumable")
                 item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment * (tonumber(item_pair[3]) or 1)
             elseif item_obj.Type == "progressive_toggle" then
-                -- print("progressive_toggle")
+                print("progressive_toggle")
                 if item_obj.Active then
                     item_obj.CurrentStage = item_obj.CurrentStage + 1
                 else
@@ -306,7 +306,7 @@ function onLocation(location_id, location_name)
 
     for _, location in pairs(location_array) do
         local location_obj = Tracker:FindObjectForCode(location)
-        -- print(location, location_obj)
+        print(location, location_obj)
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
@@ -389,7 +389,7 @@ end
 
 function UpdateHints(locationID, status) -->
     if Highlight then
-        -- print(locationID, status)
+        print(locationID, status)
         local location_table = LOCATION_MAPPING[locationID]
         for _, location in ipairs(location_table) do
             if location:sub(1, 1) == "@" then
